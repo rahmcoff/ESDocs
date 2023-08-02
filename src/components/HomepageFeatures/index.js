@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '28 Fine crafted Pine rooms',
+    title: '28 fine crafted Pine rooms',
     image: './img/ES_compilation_screen.png',
     description: (
       <>
