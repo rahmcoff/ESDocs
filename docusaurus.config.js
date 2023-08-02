@@ -21,6 +21,7 @@ const config = {
   organizationName: 'SuperJura', // Usually your GitHub org/user name.
   projectName: 'ESDocs', // Usually your repo name.
   trailingSlash: false,
+  
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
