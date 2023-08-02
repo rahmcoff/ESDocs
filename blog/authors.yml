@@ -1,0 +1,17 @@
+jura:
+  name: SuperJura
+  title: Programmer @ Pine
+  url: https://github.com/SuperJura
+  image_url: /authors/Jura.png
+
+vinka:
+  name: TriangleDust
+  title: Programmer @ Pine
+  url: https://github.com/vprpic
+  image_url: /authors/Vinka.png
+
+pine:
+  name: Pine
+  title: Pine
+  url: https://pinestudio.com
+  image_url: /authors/Pine.png
