@@ -17,8 +17,11 @@ const config = {
   baseUrl: '/ESDocs/',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
+  
   organizationName: 'SuperJura', // Usually your GitHub org/user name.
-  projectName: 'ESDocs', // Usually your repo name.
+  projectName: 'superjura.github.io', // Usually your repo name.
+  
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
