@@ -19,7 +19,8 @@
  - Verify game files on Steam (right click the game in the Steam library > Properties > Local files > Verify...)
 
 </details>
-# 🔨 Room Editor
+
+# 🔨Room Editor
 
 ## 📁 Working with folders
 
