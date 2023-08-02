@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkes_docs=self.webpackChunkes_docs||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Versus Update","permalink":"/blog/2023/08/01/versus-update"},{"title":"Welcome","permalink":"/blog/2021/07/31/welcome"}]}')}}]);

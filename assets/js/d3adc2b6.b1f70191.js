@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkes_docs=self.webpackChunkes_docs||[]).push([[24],{4008:s=>{s.exports=JSON.parse('{"label":"versus","permalink":"/ESDocs/blog/tags/versus","allTagsPath":"/ESDocs/blog/tags","count":1}')}}]);
