@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/ESIcon.png',
 
   // Set the production url of your site here
-  url: '/ESDocs/',
+  url: 'https://superjura.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -102,11 +102,7 @@ const config = {
               {
                 label: 'Reddit',
                 href: 'https://www.reddit.com/r/PlayEscapeSimulator',
-              },
-              {
-                label: 'Email',
-                href: 'contact@pinestudio.com',
-              },
+              }
             ],
           },
           {
