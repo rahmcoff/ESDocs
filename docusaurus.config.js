@@ -19,7 +19,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   
   organizationName: 'SuperJura', // Usually your GitHub org/user name.
-  projectName: 'superjura.github.io', // Usually your repo name.
+  projectName: 'ESDocs', // Usually your repo name.
   
   trailingSlash: false,
 
