@@ -21,4 +21,4 @@ Here is a full list of major patches.
 - Wild West + Big Bug fix update
 - Leonardo's Workshop Room
 - Treasure Island
-- Versus Mode
+- [Versus Mode](/blog/2023/08/01/versus-update)
