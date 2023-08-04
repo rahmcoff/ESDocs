@@ -123,7 +123,7 @@ const config = {
             ],
           },
         ],
-        copyright: `${new Date().getFullYear()} Escape Simulator, Pine Studio. Built with Docusaurus.`,
+        copyright: `${new Date().getFullYear()} Escape Simulator, Pine Studio.`
       },
       prism: {
         theme: lightCodeTheme,
