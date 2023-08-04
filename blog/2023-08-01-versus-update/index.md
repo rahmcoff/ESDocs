@@ -137,3 +137,48 @@ the speed.
 - Fixed buttons staying highlighted in the in-game menu when exiting the menu with ESC.
 
 </details>
+
+# Versus Hotfix #1
+
+<details><summary><h4>Versus Core</h4></summary>
+
+- Fixed freeze if you are playing versus mode with a room that has an eject slot at the beginning of the map
+- Removed "You Lost!" message if you are left alone in a versus map.
+- Versus trophy screen is visually much more consistent across all maps.
+- Fixing freeze at Versus rooms where the game would freeze if other players disconnect at the trophy screen.
+- Fixed bug where versus leaderboards would display 1 instead 10.
+
+</details>
+
+<details><summary><h4>Versus Rooms</h4></summary>
+
+- Adjusted lasers in "Versus Apprentice" room so its easier to see if you finished the puzzle
+- Adjusted hints for "Versus Apprentice" room.
+- Adjusted laser block time in "Versus Apprentice" so it's a more fluid feel.
+- Adjusting Japanese translations in "Versus Apprentice".
+- Fixing bug where rotating cubes could be rotated at a weird angle in "Versus Apprentice".
+
+</details>
+
+<details><summary><h4>Random Lobby</h4></summary>
+
+- Adjusted random lobbies so they look for additional regions for a match.
+- Searching for a random lobby now shows "Connecting" panel and disallows click spamming random matches.
+
+</details>
+
+<details><summary><h4>Level Specific</h4></summary>
+
+- Fixing freeze in "The Elevator" in coop when picking up a key.
+- Fixed wrong player spawn locations in "The Metaverse" in versus mode.
+
+</details>
+
+<details><summary><h4>Other</h4></summary>
+
+- Removed token UI in rooms that have no tokens.
+- Fixing soft lock if you leave a zoom
+- Fixing bug where big items would clip through a player when entering a slot.
+- Changed "Dynamic Walkthrough" Steam tag to "Versus".
+
+</details>
