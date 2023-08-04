@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 # Room Editor Handbook
@@ -8,9 +8,10 @@ sidebar_position: 3
 | Name | Shortcut | Description |
 | ---- |:--------:| ------------|
 | Moving | _Hold Right Mouse Button + WASD_ | Used to control the camera position |
-| Fast moving | _Hold Right Mouse Button + WASD + Shift_ | Same as moving but faster |
+| Fast moving | _Hold Right Mouse Button + WASD + Shift_ | Move at double the current speed |
+| Slow moving | _Hold Right Mouse Button + WASD + Ctrl_ | Move at half the current speed |
+| Change camera speed | _Hold Right Mouse Button + Scroll_ | Change the saved camera speed setting |
 | Focus on an item | _F_ | Moves the camera to the selected prop |
-| Slow camera movement | _Ctrl + Scroll_ |  |
 
 ## Working with props
 | Name | Shortcut | Description |
@@ -20,7 +21,7 @@ sidebar_position: 3
 | Rect select parents | Left mouse button click and drag + Alt | If a child and it's parent are in the rect selection it selects only the parent |
 | Undo | Ctrl + Z | Revert your last action or group of actions |
 | Redo | Ctrl + Shift + Z | Revert your last undo |
-| Copy+Paste | Ctrl + D or Ctrl + C | Duplicate the selected prop(s) |
+| Copy+Paste | Ctrl + D or Ctrl + C | Duplicate the selected prop(s) on the same position |
 | Prop snap movement | Ctrl + moving the prop | The Prop will move 0,25 units and snap into place |
 | Layer selection | Right click on prop | Select a prop behind or in another prop from the selection menu |
 | Hide | H | Hides selected props |

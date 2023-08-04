@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 50
 ---
 
 # Custom Models
@@ -21,5 +21,7 @@ When standard (non modified) models are imported they get a box collider that en
 
 If the model was deleted while not in the editor and the files were not used in the room nothing will happen. It just won’t be loaded when you go to edit the room. If the model was deleted while in the editor you will still be able to place the model in the room and use it, but it is recommended to remove all instances present in the room and save. If a model was deleted and it was used in the room, when loading the room you will get a room loading error which states that custom models have been deleted. You can check the “player.log” file and find exactly which files are considered missing and replace them or go into the room and delete all of the default props that were loaded instead of the custom model. If a room with missing custom models is uploaded players will not be able to start it. Even if you save the room with the loaded default props they are still considered missing props.
 
-## Tips
-If possible modify the model to only contain one mesh object. Multiple mesh objects result in multiple gameobjects. When publishing a room only the used models are uploaded to the workshop.
+## 💡Tips
+- If possible modify the model to only contain one mesh object. Multiple mesh objects result in multiple gameobjects.
+- When publishing a room only the used models are uploaded to the workshop.
+- If you're having issues with the colliders disable them and add multiple Collider logic props as a child to the custom model. Position and scale the Collider props to fit your collider needs
