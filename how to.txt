@@ -1,0 +1,13 @@
+Current live link: https://superjura.github.io/ESDocs/
+
+Installation
+1. Download and install Github Desktop
+2. Download and install Node.js (https://nodejs.org/en)
+3. Start cmd and type "npm install" to install dependencies
+
+Editing pages
+1. cmd in project folder (C:\PineProjects\ESDocs)
+2. "npm start" -> page local preview
+3. Open code from project folder and edit it
+4. Commit via the Github Desktop
+
