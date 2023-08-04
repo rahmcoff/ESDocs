@@ -60,6 +60,8 @@ const config = {
     ],
   ],
 
+  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -78,7 +80,7 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/faq', label: 'FAQ', position: 'left'},
+          {to: '/docs/faq', label: 'FAQ', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://store.steampowered.com/app/1435790/Escape_Simulator/',
@@ -129,5 +131,4 @@ const config = {
       },
     }),
 };
-
 module.exports = config;

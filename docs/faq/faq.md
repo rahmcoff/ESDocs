@@ -1,3 +1,9 @@
+---
+sidebar_position: 4
+title: "FAQ"
+---
+
+
 # 🤼 Multiplayer
 
 <details><summary><h4>If you have issues with co-op/multiplayer</h4></summary>
