@@ -20,5 +20,5 @@ Here is a full list of major patches.
 - Halloween update
 - Wild West + Big Bug fix update
 - Leonardo's Workshop Room
-- Treasure Island
+- [Treasure Island](/blog/2023/06/22/treasure-island-update)
 - [Versus Mode](/blog/2023/08/01/versus-update)
