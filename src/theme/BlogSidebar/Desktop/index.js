@@ -6,8 +6,7 @@ import styles from './styles.module.css';
 export default function BlogSidebarDesktop({ sidebar }) {
   return (
     <aside className="col col--3">
-      <nav
-        className={clsx(styles.sidebar, 'thin-scrollbar')}>
+      <nav className={clsx(styles.sidebar, 'thin-scrollbar')}>
         <div className={clsx(styles.sidebarItemTitle, 'margin-bottom--md')}>
           Blog Controls
         </div>
@@ -19,15 +18,9 @@ export default function BlogSidebarDesktop({ sidebar }) {
             <a href="/ESDocs/blog/tags" className={styles.sidebarItemLink}>Tags</a>
           </li>
         </ul>
-      </nav>
-      <hr />
-      <nav
-        className={clsx(styles.sidebar, 'thin-scrollbar')}
-        aria-label={translate({
-          id: 'theme.blog.sidebar.navAriaLabel',
-          message: 'Blog recent posts navigation',
-          description: 'The ARIA label for recent posts in the blog sidebar',
-        })}>
+
+        <hr />
+
         <div className={clsx(styles.sidebarItemTitle, 'margin-bottom--md')}>
           {sidebar.title}
         </div>

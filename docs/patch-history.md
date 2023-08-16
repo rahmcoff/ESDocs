@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # Patch History
@@ -19,6 +19,6 @@ Here is a full list of major patches.
 - 70's Room
 - Halloween update
 - Wild West + Big Bug fix update
-- Leonardo's Workshop Room
+- [Leonardo's Workshop Room](/blog/2023/03/08/leonardos-workshop-update)
 - [Treasure Island](/blog/2023/06/22/treasure-island-update)
 - [Versus Mode](/blog/2023/08/01/versus-update)
