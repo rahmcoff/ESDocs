@@ -3,18 +3,17 @@
 Escape Simulator has a rich past in terms of updates including new rooms, new features, bug fixes and DLCs.
 Here is a full list of major patches.
 
-- Omega: The Lobby
-- Omega: The Office, Executive Office, The Elevator, The Metaverse
-- Santa's workshop
-- Big editor update: alchemist prop pack & room editor particles
-- Language pack update (Turkish, Spanish, Spanish Latin America, Portuguese, Portuguese Brasil)
-- HyperX update
-- One million players update & Cats in time Room
-- Steampunk DLC
-- Room Editor 2.0
-- 70's Room
-- Halloween update
-- Wild West + Big Bug fix update
+- [Omega: The Lobby, The Office, Executive Office, The Elevator, The Metaverse](/blog/2021/10/29/omega)
+- [Santa's workshop](/blog/2021/12/29/santa)
+- [Big editor update: alchemist prop pack & room editor particles](/blog/2022/02/18/room-editor-packs)
+- [Language pack update (Turkish, Spanish, Spanish Latin America, Portuguese, Portuguese Brasil)](/blog/2022/03/22/languages)
+- [HyperX update](/blog/2022/04/07/hyperx)
+- [One million players update & Cats in time Room](/blog/2022/05/02/milion-players-cats)
+- [Steampunk DLC](/blog/2022/06/06/steampunk-dlc)
+- [Room Editor 2.0](/blog/2022/06/06/room-editor-two)
+- [70's Room](/blog/2022/09/22/seventies-room)
+- [Halloween update](/blog/2022/10/25/halloween-update)
+- [Wild West + Big Bug fix update](/blog/2022/12/08/wild-west-dlc)
 - [Leonardo's Workshop Room](/blog/2023/03/08/leonardos-workshop-update)
 - [Treasure Island](/blog/2023/06/22/treasure-island-update)
 - [Versus Mode](/blog/2023/08/01/versus-update)
