@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Patch History
 
 Escape Simulator has a rich past in terms of updates including new rooms, new features, bug fixes and DLCs.

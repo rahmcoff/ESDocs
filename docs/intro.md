@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Overview
 
 Let's discover **Escape Simulator**.
