@@ -68,7 +68,7 @@ const sidebars = {
         ],
       link: {
         type: 'generated-index',
-        description: "One stop place for all information about features in Room Editor"
+        description: "One stop place for all information about features in Room Editor."
       },
     },
     {
@@ -76,10 +76,12 @@ const sidebars = {
         [
           'tutorial-videos/puzzle-prop',
           'tutorial-videos/roulette-prop',
+          'tutorial-videos/room-editor-halloween-update',
+          'tutorial-videos/room-editor-basics',
         ],
       link: {
         type: 'generated-index',
-        description: "One stop place for all information about features in Room Editor"
+        description: "Room Editor information in video format!"
       },
     },
     {
@@ -88,10 +90,14 @@ const sidebars = {
           'stream-vods/versus-update-q-a',
           'stream-vods/build-a-room-3',
           'stream-vods/build-a-thon-22',
+          'stream-vods/room-editor-two',
+          'stream-vods/build-a-room-2-winners',
+          'stream-vods/build-a-room-2-rooms',
+          'stream-vods/build-a-room-1-winners'
         ],
       link: {
         type: 'generated-index',
-        description: "One stop place for all information about features in Room Editor"
+        description: "Find old Pine streams here."
       },
     },
 
