@@ -10,6 +10,8 @@ tags: [update]
 
 We are both delighted and overwhelmed to share the amazing news that we have officially sold more than **1 million copies of Escape Simulator**. We never anticipated our game to reach this amount of success and we are incredibly thankful for each and every one of you! To celebrate this very special occasion, we are glad to announce that as of today, you will be able to play through a new official room! This new room pays tribute to one of the earlier PINE games: [Cats In Time](https://store.steampowered.com/app/1599880/Cats_in_Time/?utm_source=landing&utm_campaign=ES_level)! 
 
+<!--truncate-->
+
 ## Can you make it in time?
 
 In the new Cats In Time room, you will need to figure out how to repair Professor Tim Edger's time machine. However, this task won't be easy and you might just run into some strange issues while trying to fix the device. The clock's ticking! Will you be able to finish your task within thirty minutes? 😼

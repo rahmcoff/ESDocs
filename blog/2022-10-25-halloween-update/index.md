@@ -10,6 +10,8 @@ tags: [update]
 
 We hope you're ready to solve some more tricky puzzles, because the Halloween update for Escape Simulator is **OUT NOW**! This update features a brand-new room set in an eerie looking graveyard. Will you be able to solve its many mysteries? 🔍
 
+<!--truncate-->
+
 To really add to the spooky vibes, the new Graveyard level is accompanied by a special soundtrack! But wait, you didn't think we'd let you celebrate Halloween without a matching outfit, right? Of course not! That's why the Halloween update also features a new customization option that allows you to turn your character into a ghostly version of itself! 
 We also did more than **600 fixes and quality-of-life improvements** for the game. You can read the whole changelog below.🔽
 

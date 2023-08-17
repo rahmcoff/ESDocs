@@ -10,6 +10,8 @@ tags: [update]
 
 It's no secret that Leonardo da Vinci was a man of many skills. Not only was he a masterful painter, but he also took a great interest in many other subjects such as science, engineering, sculpting...and apparently puzzles as well! So with that knowledge in mind, do you think you will be able to outsmart the great Leonardo da Vinci himself? We would definitely like to see you try!
 
+<!--truncate-->
+
 If you think you've got what it takes, try solving our new **free** room Leonardo's Workshop, which is out now! This additional room is part of a free update, which also includes a full translation into Italian! Of course we are also adding another outfit and a soundtrack so you can get fully immersed in the world of Leonardo da Vinci. Finally, this update brings a whole bunch of optimizations to the Room Editor, including faster room loading. A full changelog can be found at the end of this announcement. 👇
 
 To celebrate the launch of this new room, you can now get Escape Simulator with a **25% discount**! So if you haven't purchased the game yet or want to gift it to a friend, now would be the perfect time to do so! 

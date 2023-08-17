@@ -9,6 +9,7 @@ tags: [update]
 ![omega1](./omega1.png)
 
 We're releasing the first room in the all-new "Omega Corporation" pack, which will join "Labyrinth of Egypt", "Adrift in Space" and "Edgewood Mansion" as the 4th room pack. And best of all, you get to play it for free! The rest of the rooms from the packs are going to come in the coming two months.
+<!--truncate-->
 
 ## Spooky season calls for spooky assets!
 

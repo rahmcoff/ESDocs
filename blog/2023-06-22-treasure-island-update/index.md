@@ -10,6 +10,8 @@ tags: [update]
 
 Ahoy there, scurvy dogs! Get ready for another swashbucklin’ adventure in Escape Simulator! Our latest free update sets sail to Treasure Island, where you can explore a vast island that’s rumored to hide an invaluable treasure. The Treasure Island update also comes with a matching outfit and an additional soundtrack to accompany you on your quest for booty! Alongside this exciting content, we've made a whole bunch of fixes and additions, which you can find in the full changelog below. So set sail and join the hunt for the hidden treasure!
 
+<!--truncate-->
+
 Visit the [Steam Store](https://store.steampowered.com/app/1435790/Escape_Simulator/) to check out the game!
 
 To celebrate the launch of this new room, we are offering a 25% discount on Escape Simulator. It's the perfect time to get the game for yourself or gift it to a friend!

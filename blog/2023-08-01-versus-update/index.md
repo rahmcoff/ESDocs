@@ -4,11 +4,13 @@ authors: [pine]
 tags: [versus, update]
 ---
 
-# Are you ready for a battle of the brains? 🧠
-
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/weeOjkY0Ais" title="Escape Simulator: Versus Update - Out now!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+# Are you ready for a battle of the brains? 🧠
+
 Always wondered if you were the one with the biggest brain among your friends? Today you'll be able to find out for yourself by challenging them in Escape Simulator's brand-new Versus Update! Rise to the top of the ranks by being the first to solve all the puzzles in one of our many escape rooms. To commemorate this new way to play, we are also adding a truly challenging room that takes place on a quiz show from the 80s.
+
+<!--truncate-->
 
 Finally, we would like to challenge all of our community's incredibly talented room builders to create their own Versus rooms! That's right, **we are kicking off our fourth official Build-A-Room challenge TODAY**! As always, there are some awesome prizes involved. Be sure to keep reading for more information on this new Build-A-Room challenge down below!
 

@@ -9,6 +9,8 @@ Earlier this month, we asked our community to vote between four potential asset 
 
 ![Alchemist](./alchemist.png)
 
+<!--truncate-->
+
 # Additional Room Editor updates
 
 ### New assets:

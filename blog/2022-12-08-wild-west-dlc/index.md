@@ -10,6 +10,8 @@ tags: [update, dlc]
 
 We hope you're ready for a rootin'-tootin' escape adventure, because the **Wild West DLC** is out now! The Wild West DLC features four additional rooms: The Sheriff's Office, The Saloon, The Bank and the Post Office and The Train. Of course, you'll need some matching clothes to fit the occasion, so the DLC also includes two new outfits. Will you dress up as a sleek sheriff or a rugged outlaw? The choice is yours! 
 
+<!--truncate-->
+
 Ready to embark on this new adventure? Don't wait a minute longer and purchase the Wild West DLC [right here](https://store.steampowered.com/app/2175260/Escape_Simulator_Wild_West_DLC)! YEEHAW!
 
 ## All cleaned up! 🧹

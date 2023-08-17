@@ -8,6 +8,8 @@ tags: [dlc, update]
 ## Four brand new rooms for you to escape from in style!
 Get ready to solve a lot more puzzles, because the brand new **Steampunk DLC** is out now! Featuring four additional rooms that are filled to the brim with all kinds of curious machinery, this DLC is sure to get your gears grinding! To celebrate the arrival of this new content, both Escape Simulator and the Steampunk DLC are currently on sale! Additionally, you can now get all available content directly through the newly available Escape Simulator: Collector's Edition. This bundle is also available if you already own Escape Simulator and will add the content that you don't own yet to your Steam wallet. If you can't wait to board the Valor, then you can get the Steampunk DLC right [here](https://store.steampowered.com/app/1942100/Escape_Simulator_Steampunk_DLC/)!
 
+<!--truncate-->
+
 Each room in this DLC represents a different area of the steampunk airship ‘Valor’. Your journey through the Valor begins at The Crew Quarters, where you are awoken by a sudden explosion. You’ll have to make your way topside by putting out fires in The Engine Room and by taking care of the plants in The Greenhouse. Will you be able to make it to The Helm Room on time and regain control of the airship?
 
 ## Bring your community rooms to the next level!

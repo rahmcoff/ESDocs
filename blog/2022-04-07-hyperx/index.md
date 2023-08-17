@@ -9,6 +9,8 @@ Starting today, Escape Simulator will be collaborating with **HyperX** and OMEN 
 
 ![Splash](./splash.gif)
 
+<!--truncate-->
+
 To get a chance of winning these awesome prizes you will need to build the **ultimate gaming escape room** with Escape Simulator’s in-game room editor! In order to build this ’Ultimate Game Room’, you will need to make use of a full set of assets that represent real-life HyperX and OMEN products. You can find these assets in the Room Editor. Submissions will be considered if they have been sent in before April 11, 2022 (6PM CEST / 9AM PT / 12PM ET)
 
 We aim to announce the winners on **Monday, April 25**! As we want to play every room thoroughly, depending on the amount of submissions the picking of winners might take longer than expected. We will communicate this in a timely manner if this happens!

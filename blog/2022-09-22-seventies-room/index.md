@@ -11,6 +11,8 @@ tags: [update]
 
 We hope you like lava lamps and disco balls, because it's time to go back to the 70's. That's right, we're releasing a brand-new room for Escape Simulator **today**! In order to escape from this incredibly cozy looking room, you'll need to know your way around some 'ancient' technology, such as cassette decks and a very retro game console. So vintage!
 
+<!--truncate-->
+
 That's not all, though! The **70's room** is part of our latest update, which also contains a whole bunch of additional features for the room editor. We hope you're excited to start using these features, builders! Additionally, this update contains the following tweaks:
 
 - Different internal level packing, the game should be smaller on disk. It's about 5GB smaller than before!

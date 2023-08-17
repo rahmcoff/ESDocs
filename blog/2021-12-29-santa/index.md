@@ -10,6 +10,8 @@ Our elves worked super hard to finish the last update of 2021. The update brings
 
 ![Santa](./santa.gif)
 
+<!--truncate-->
+
 If you need a last-minute Christmas **gift**, it's a great time to grab Escape Simulator while it's 20% off!
 
 We want to say **happy holidays from the entire Pine team**! Thank you for playing and supporting our work. We hope Escape Simulator will bring you closer to friends and family and make some fond memories. 
