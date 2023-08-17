@@ -6,10 +6,10 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #1d407a; /*#25c2a0;*/
-  --ifm-color-primary-dark: #1d68e1; /*rgb(33, 175, 144);*/
-  --ifm-color-primary-darker: #1b62d4; /*rgb(31, 165, 136);*/
-  --ifm-color-primary-darkest: #1751af; /*rgb(26, 136, 112);*/
+  --ifm-color-primary: #4682A9; /*#25c2a0;*/
+  --ifm-color-primary-dark: #749BC2; /*rgb(33, 175, 144);*/
+  --ifm-color-primary-darker: #91C8E4; /*rgb(31, 165, 136);*/
+  --ifm-color-primary-darkest: #F6F4EB; /*rgb(26, 136, 112);*/
   --ifm-color-primary-light: #4e89e8; /*rgb(70, 203, 174);*/
   --ifm-color-primary-lighter: #5a91ea; /*rgb(102, 212, 189);*/
   --ifm-color-primary-lightest: #80aaef; /*rgb(146, 224, 208);*/
@@ -19,8 +19,17 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #2a5eb2; /*#25c2a0;*/
+  --ifm-color-primary: #8CABFF; /*#25c2a0;*/
+  --ifm-color-primary-dark: #4477CE; /*rgb(33, 175, 144);*/
+  --ifm-color-primary-darker: #512B81; /*rgb(31, 165, 136);*/
+  --ifm-color-primary-darkest: #35155D; /*rgb(26, 136, 112);*/
+
+
   --ifm-background-color: #1e2125;
   --ifm-background-surface-color: #121212;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.dateLabel{
+  color: var(--ifm-color-primary)
 }
