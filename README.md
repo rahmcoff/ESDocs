@@ -1,14 +1,30 @@
-### Installation & run locally
+# Current live link: https://superjura.github.io/ESDocs/
 
-1. fork this repo
+# Installation & run locally via command line
+
+1. clone forked repository
+
+fork the repo on github.
+
+then run 
 ```
-https://github.com/SuperJura/ESDocs.git
+git clone https://github.com/SuperJura/ESDocs.git
 ```
-2. install dependencies
+2. download and install Nodejs
+
+download latest LTS version.
+```
+https://nodejs.org/en
+```
+3. install dependencies
+
+open console in the cloned repo location
+
+then run
 ```
 $ npm install
 ```
-3. Start the project
+4. Start the project
 ```
 $ npm start
 ```
