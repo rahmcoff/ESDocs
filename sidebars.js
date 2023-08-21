@@ -103,6 +103,7 @@ const sidebars = {
 
     { type: 'doc', id: 'patch-history', },
     { type: 'doc', id: 'faq/faq', },
+    { type: 'doc', id: 'fun-stats', },
   ],
 };
 
