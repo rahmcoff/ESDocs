@@ -18,7 +18,7 @@ const FeatureList = [
     image: './img/bannerDlcs.png',
     description: (
       <>
-        Explore additional in-house rooms made by Pine and our friends at Somnium Games
+        Explore additional 8 rooms set on a steampunk airship and in the wild wild west. 
       </>
     ),
   },
@@ -27,7 +27,7 @@ const FeatureList = [
     image: './img/ES_Community-Made_rooms.png',
     description: (
       <>
-        Explore a vast universe of 3000+ community designed rooms 
+        Explore a vast universe of 3500+ community designed rooms 
       </>
     ),
   },
