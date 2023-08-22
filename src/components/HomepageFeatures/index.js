@@ -8,7 +8,7 @@ const FeatureList = [
     image: './img/ES_compilation_screen.png',
     description: (
       <>
-        Pine Studio made 28 rooms for you to escape with variety of themes.
+        Pine Studio made 29 rooms for you to escape with variety of themes.
         From Space to Victorian era, you will find your cup of tea.
       </>
     ),
