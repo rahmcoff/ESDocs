@@ -1,4 +1,4 @@
-# Current live link: https://superjura.github.io/ESDocs/
+# Current live link: https://docs.escapesimulator.com/
 
 # Installation & run locally via command line
 
