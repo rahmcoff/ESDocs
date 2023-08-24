@@ -1,53 +1,37 @@
 import React from 'react';
-import clsx from 'clsx';
 import styles from './styles.module.css';
 
-const FeatureList = [
+const HeroList = [
   {
-    title: '28 fine crafted Pine rooms',
-    image: './img/ES_compilation_screen.png',
-    description: (
-      <>
-        Pine Studio made 29 rooms for you to escape with variety of themes.
-        From Space to Victorian era, you will find your cup of tea.
-      </>
-    ),
+    image: './img/logo.png',
+    title: 'Docs',
+    url: '/docs/intro'
   },
   {
-    title: '2 full fledged DLCs',
-    image: './img/bannerDlcs.png',
-    description: (
-      <>
-        Explore additional 8 rooms set on a steampunk airship and in the wild wild west. 
-      </>
-    ),
+    image: './img/logo.png',
+    title: 'FAQ',
+    url: '/docs/faq'
   },
   {
-    title: 'More than 3000 community rooms',
-    image: './img/ES_Community-Made_rooms.png',
-    description: (
-      <>
-        Explore a vast universe of 3500+ community designed rooms 
-      </>
-    ),
-  },
-];
-
-function Feature({image, title, description}) {
+    image: './img/logo.png',
+    title: 'Blog',
+    url: '/blog'
+  }
+]
+function Hero({ image, title, url }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <img src={image} className={styles.featureSvg} role="img" style={{objectFit: "contain"}} />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
-      </div>
+    <div class="article-card article-card-hover">
+      <a href={url}>
+        <div class="content">
+          <p class="title">{title}</p>
+        </div>
+        <img src={image} />
+      </a>
     </div>
   );
 }
 
-export default function HomepageFeatures() {
+export function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
@@ -59,4 +43,16 @@ export default function HomepageFeatures() {
       </div>
     </section>
   );
+}
+
+export function HomepageHeros() {
+  return (
+    <section className={styles.features}>
+      <div className="landingHeroCenter">
+        {HeroList.map((props, idx) => (
+          <Hero key={idx} {...props} />
+        ))}
+      </div>
+    </section>
+  )
 }

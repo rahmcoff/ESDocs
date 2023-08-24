@@ -12,10 +12,10 @@ export default function BlogSidebarDesktop({ sidebar }) {
         </div>
         <ul className={clsx(styles.sidebarItemList, 'clean-list')}>
           <li>
-            <a href="/ESDocs/blog" className={styles.sidebarItemLink}>Blog Home</a>
+            <a href="/blog" className={styles.sidebarItemLink}>Blog Home</a>
           </li>
           <li>
-            <a href="/ESDocs/blog/tags" className={styles.sidebarItemLink}>Tags</a>
+            <a href="/blog/tags" className={styles.sidebarItemLink}>Tags</a>
           </li>
         </ul>
 
