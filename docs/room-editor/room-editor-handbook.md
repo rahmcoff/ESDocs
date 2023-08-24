@@ -32,6 +32,7 @@ sidebar_position: 1
 | Name | Shortcut | Description |
 | ---- |:--------:| ------------|
 | Test play at position | **Ctrl + Click Test Play Button** | Starts the playtesting of the level with your character at the position of the camera |
+| Search | **Ctrl + Space** | Opens the search UI for searching through prop instances in the room |
 
 <!--|  |  |  |
 |  |  |  |
