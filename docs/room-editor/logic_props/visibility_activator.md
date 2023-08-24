@@ -69,10 +69,14 @@ Does not deactivate the Obstacle property.
 Defines whether the Activator Component should activate on the first frame of starting the level.
 </div>
 
+Activating the Visibility Activator with `Active On Start` happens before the player can take control of the character (at the last frame of loading the level).
+
 ### :small_orange_diamond:Target Objects
 <div className="highlight-div">
 List of props you want to enable/disable/toggle once the Activator Component is activated.
 </div>
+
+To add a target object press the plus button and then select a prop(s) from the scene you want to target.
 
 :::tip
 If none of the Targeting checkmarks are checked the Activator Component goes through the list of Targeting Objects but does nothing to the objects. 

@@ -18,7 +18,6 @@ const HeroList = [
     url: '/blog'
   }
 ]
-
 function Hero({ image, title, url }) {
   return (
     <div class="article-card article-card-hover">
