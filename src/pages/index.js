@@ -1,18 +1,16 @@
 import React from 'react';
 import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import {HomepageHeros} from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <img src='./img/logo.png' height={150}/>
+        <img src='./img/logo.png' height={200}/>
       </div>
     </header>
   );
@@ -26,7 +24,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <HomepageHeros/>
       </main>
     </Layout>
   );
