@@ -20,7 +20,7 @@ From Space to Victorian era, you will find your cup of tea.
 
 ### 2 full fledged DLCs
 
-Explore additional in-house rooms made by Pine and our friends at Somnium Games.
+Explore additional 8 rooms set on a steampunk airship and in the wild wild west. 
 <div className="article-card" style={{float:'left'}}>
     <img src={require('./img/bannerDlc1.png').default}/>
 </div>
