@@ -1,8 +1,13 @@
 ---
 title: Versus Update
+image: ./rooms.jpg
 authors: [pine]
 tags: [versus, update]
 ---
+
+<Head>
+<meta property="og:image" content="https://i.imgur.com/mErPwqL.png" />
+</Head>
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/weeOjkY0Ais" title="Escape Simulator: Versus Update - Out now!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

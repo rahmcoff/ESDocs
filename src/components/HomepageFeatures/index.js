@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './styles.module.css';
+
+const recentPosts = require("../../../.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json");
 
 const HeroList = [
   {
@@ -28,31 +30,42 @@ function Hero({ image, title, url }) {
         <img src={image} />
       </a>
     </div>
-  );
+);
 }
 
-export function HomepageFeatures() {
-  return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
 
 export function HomepageHeros() {
-  return (
-    <section className={styles.features}>
-      <div className="landingHeroCenter">
-        {HeroList.map((props, idx) => (
-          <Hero key={idx} {...props} />
-        ))}
-      </div>
-    </section>
-  )
+  const [imageUrl, setImageUrl] = useState("");
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const urlMetadata = require('url-metadata');
+    const lastBlogPost = recentPosts.items[0]; // Define lastBlogPost here
+
+    urlMetadata(lastBlogPost.permalink)
+      .then((metadata) => {
+        setImageUrl(metadata.image);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.log(err);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  } else {
+    const lastBlogPost = recentPosts.items[0]; // Define lastBlogPost here as well
+    return (
+      <section className={styles.features}>
+        <div className="landingHeroCenter">
+          {HeroList.map((props, idx) => (
+            <Hero key={idx} {...props} />
+          ))}
+          <Hero image={imageUrl} title={lastBlogPost.title} url={lastBlogPost.permalink} />
+        </div>
+      </section>
+    );
+  }
 }
