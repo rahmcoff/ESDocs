@@ -30,7 +30,7 @@ function Hero({ image, title, url }) {
         <img src={image} />
       </a>
     </div>
-);
+  );
 }
 
 
@@ -45,7 +45,9 @@ export function HomepageHeros() {
     urlMetadata(lastBlogPost.permalink)
       .then((metadata) => {
         var url = metadata.image.replace(/([^:]\/)\/+/g, '$1');
-        setImageUrl(url);
+        // var url = "https://docs.escapesimulator.com/assets/images/rooms-52065626059047bd095c366315dfd968.jpg";
+        const urlObject = new URL(url);
+        setImageUrl(urlObject.pathname);
         setLoading(false);
       })
       .catch((err) => {
