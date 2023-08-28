@@ -44,7 +44,8 @@ export function HomepageHeros() {
 
     urlMetadata(lastBlogPost.permalink)
       .then((metadata) => {
-        setImageUrl(metadata.image);
+        var url = metadata.image.replace(/([^:]\/)\/+/g, '$1');
+        setImageUrl(url);
         setLoading(false);
       })
       .catch((err) => {
