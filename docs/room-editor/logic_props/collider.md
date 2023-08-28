@@ -1,7 +1,3 @@
----
-
----
-
 # Collider
 
 ![Collider Selector](./img/Collider-Selector.png)

@@ -59,6 +59,12 @@ const sidebars = {
           {
             type: 'category', label: 'Behaviours', items:
               [
+                'room-editor/behaviours/animation',
+                'room-editor/behaviours/button',
+                'room-editor/behaviours/turnable',
+                'room-editor/behaviours/dial',
+                'room-editor/behaviours/zoomable',
+                'room-editor/behaviours/drag_target',
               ],
             link: {
               type: 'generated-index',
