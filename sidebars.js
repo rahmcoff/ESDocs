@@ -93,6 +93,7 @@ const sidebars = {
     {
       type: 'category', label: 'Stream VODs', items:
         [
+          'stream-vods/build-a-room-4-winners',
           'stream-vods/versus-update-q-a',
           'stream-vods/build-a-room-3',
           'stream-vods/build-a-thon-22',
