@@ -8,6 +8,7 @@ Escape Simulator has a rich past in terms of updates including new rooms, new fe
 Here is a full list of major patches.
 
 <VerticalTimeline lineColor='var(--ifm-color-primary)'>
+    <PatchHistoryElement title='Portal DLC' subtitle='DLC' blogUrl='/blog/2023/09/07/portal' dateString='September 7, 2023'/>
     <PatchHistoryElement title='Versus Mode' subtitle='Alternative to coop' blogUrl='/blog/2023/08/01/versus-update' dateString='August 1, 2023'/>
     <PatchHistoryElement title='Treasure Island' subtitle='New Room' blogUrl='/blog/2023/06/22/treasure-island-update' dateString='June 22, 2023'/>
     <PatchHistoryElement title="Leonardo's Workshop Room" subtitle='New Room' blogUrl='/blog/2023/03/08/leonardos-workshop-update' dateString='March 8, 2023'/>
