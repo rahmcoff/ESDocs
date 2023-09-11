@@ -30,3 +30,30 @@ Of course we still have a lot of additional updates and much more exciting news 
 ## So how are you holding up? 🥔
 
 There’s a lot more exciting news on the way, so keep those portals primed, and those cubes cuddled, and be sure to keep in touch on our channels for more updates! Love the game and want to talk to other players and room builders? Then please consider joining our official [Discord](https://discord.gg/pinestudio) or [subreddit](https://www.reddit.com/r/PlayEscapeSimulator/)! In the meantime, we’d like to thank you all again for your unwavering support. We hope you enjoy this update as much as we do, and we cannot wait to hear what you think about it!
+
+
+# Full Changelog
+
+<details open><summary><h4>New Content</h4></summary> 
+
+- New DLC: Play Escape Chamber for free!
+- Portal themed outfit in character customization
+- Added preview save system for Escape Chamber
+
+</details>
+
+<details><summary><h4>Room Editor</h4></summary> 
+
+- Now you can search for props you placed in your rooms! Just press ‘Ctrl + Space’ while you’re in the Room Editor.
+- Added Ceiling and Floor props!
+- Competitor Targets in the Puzzle logic prop are no longer triggered in singleplayer, only in multiplayer!
+- The Display logic prop physics collision removed
+- Added floor and ceiling props for Portal
+
+</details>
+
+<details><summary><h4>Core Game Fixes</h4></summary>
+
+- Zoomable is not defined as Shared Zoom anymore in coop.
+
+</details>
