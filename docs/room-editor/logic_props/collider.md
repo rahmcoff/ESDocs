@@ -1,9 +1,8 @@
 # Collider
 
-![Collider Selector](./img/Collider-Selector.png)
-
 An invisible barrier that will stop items and clicks from going through an area, but by default, not the player.
 
+![Collider Selector](./img/Collider-Selector.png)
 
 ## Properties
 
