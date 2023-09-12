@@ -95,7 +95,7 @@ There are many different tools under the "Logic" section that enable you to do s
         </a>
       </td>
       <td align="center" valign="middle" width="150" height="120">
-        <a href="./logic_props/spawn">
+        <a href="./logic_props/spawn_point">
           <img src={require('./img/logic_props/spawn.png').default}/><br/>
           <b>Spawn</b>
         </a>
@@ -115,7 +115,7 @@ There are many different tools under the "Logic" section that enable you to do s
         </a>
       </td>
       <td align="center" valign="middle" width="150" height="120">
-        <a href="./logic_props/script">
+        <a href="./lua-scripting">
           <img src={require('./img/logic_props/script.png').default}/><br/>
           <b>Script</b>
         </a>
