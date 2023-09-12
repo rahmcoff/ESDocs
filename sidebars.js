@@ -52,8 +52,8 @@ const sidebars = {
                 'room-editor/logic_props/water',
               ],
             link: {
-              type: 'generated-index',
-              description: "Learn about all the Logic props"
+              type: 'doc',
+              id: 'room-editor/logic_props/logic_props'
             },
           },
           {
@@ -66,10 +66,10 @@ const sidebars = {
                 'room-editor/behaviours/zoomable',
                 'room-editor/behaviours/drag_target',
               ],
-            link: {
-              type: 'generated-index',
-              description: "Learn all about the Behaviours you can set on all props and how players interact with them."
-            },
+              link: {
+                type: 'doc',
+                id: 'room-editor/behaviours/behaviours'
+              },
           }
         ],
       link: {
