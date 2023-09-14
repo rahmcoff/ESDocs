@@ -1,4 +1,4 @@
-# Fun Stats
+# Stats
 
 <iframe src="https://steamdb.info/embed/?appid=1435790" height="389" width="100%" loading="lazy"></iframe>
 

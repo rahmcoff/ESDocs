@@ -78,11 +78,16 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'gameSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Game',
           },
-          {to: '/docs/faq', label: 'FAQ', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'roomEditorSidebar',
+            position: 'left',
+            label: 'Room Editor',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://store.steampowered.com/app/1435790/Escape_Simulator/',

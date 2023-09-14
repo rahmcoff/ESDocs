@@ -6,13 +6,13 @@ const recentPosts = require("../../../.docusaurus/docusaurus-plugin-content-blog
 const HeroList = [
   {
     image: './img/logo.png',
-    title: 'Docs',
+    title: 'Game',
     url: '/docs/intro'
   },
   {
     image: './img/logo.png',
-    title: 'FAQ',
-    url: '/docs/faq'
+    title: 'Room Editor',
+    url: '/docs/room-editor'
   },
   {
     image: './img/logo.png',
