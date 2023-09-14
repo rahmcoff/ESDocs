@@ -67,6 +67,7 @@ const roomEditorSidebar = [
         'room-editor/behaviours/dial',
         'room-editor/behaviours/zoomable',
         'room-editor/behaviours/drag_target',
+        'room-editor/behaviours/slidable',
       ],
     link: {
       type: 'doc',
