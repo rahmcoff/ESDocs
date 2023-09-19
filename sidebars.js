@@ -89,6 +89,16 @@ const roomEditorSidebar = [
       description: "Room Editor information in video format!"
     },
   },
+  {
+    type: 'category', label: 'Expert Examples', items:
+      [
+        'room-editor/examples/simon-says/simon-says'
+      ],
+    link: {
+      type: 'generated-index',
+      description: "Explore a growing collection of examples from our community."
+    },
+  },
 ]
 
 module.exports = {gameSidebar, roomEditorSidebar}
