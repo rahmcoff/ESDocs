@@ -23,6 +23,8 @@ const gameSidebar = [
 
   { type: 'doc', id: 'fun-stats', },
   { type: 'doc', id: 'press', },
+  { type: 'doc', id: 'credits', },
+  { type: 'doc', id: 'contributing/contributing', },
 ]
 const roomEditorSidebar = [
   { type: 'doc', id: 'room-editor/room-editor', },
