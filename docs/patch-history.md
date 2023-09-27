@@ -1,5 +1,4 @@
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
+import { VerticalTimeline }  from 'react-vertical-timeline-component';
 import {PatchHistoryElement} from './patch-history-element';
 
 # Patch History

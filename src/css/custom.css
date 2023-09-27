@@ -108,11 +108,12 @@
   color: #fff;
 }
 
-.new-div {
-  display: block;
-  float:right;
-  height: 500px;
-  width: 49%;
-  padding: 0 10px; /* Optional: Add some spacing between the new div and the iframes */
-  background-color: lightgray; /* Optional: Add a background color to distinguish the new div */
+.statsTable {
+  width: 100%;
+  margin-top: 10px;
+  display: inline-table;
+}
+
+.statsTableLeft {
+  width: 25%;
 }

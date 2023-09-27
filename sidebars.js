@@ -21,7 +21,7 @@ const gameSidebar = [
     },
   },
 
-  { type: 'doc', id: 'fun-stats', },
+  { type: 'doc', id: 'stats/stats', },
   { type: 'doc', id: 'press', },
   { type: 'doc', id: 'credits', },
   { type: 'doc', id: 'contributing/contributing', },
