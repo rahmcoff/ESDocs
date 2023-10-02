@@ -60,65 +60,61 @@ Setting a higher number will make the atmosphere thicker and visually
 ### :small_orange_diamond:Sky Tint
 
 <div className="highlight-div">
+The color tint that is applied to the procedural sky.
 </div>
+
+Here you can change the color of the top half of the skybox.
 
 ### :small_orange_diamond:Ground
 
 <div className="highlight-div">
+The color that is applied to the procedural ground.
 </div>
+
+Here you can change the color of the bottom half of the skybox.
 
 ### :small_orange_diamond:Exposure
 
 <div className="highlight-div">
+Adjusts the sky’s exposure. This allows you to change tonal values in the skybox this Material generates. Larger values produce a more exposed, seemingly brighter, skybox. Smaller values produce a less exposed, seemingly darker, skybox.
 </div>
 
-### :small_orange_diamond:
+^that
+
+### :small_orange_diamond:Presets
 
 <div className="highlight-div">
+A selection of textures to choose from.
 </div>
 
-### :small_orange_diamond:
+This is a list of preset skybox textures you can freely use to quickly change the look of the skybox.
+
+If you want to customize your skybox with custom images, change the individual images in the bottom section.
+
+### :small_orange_diamond:Tint Color
 
 <div className="highlight-div">
+The color tint that is applied over the custom images.
 </div>
 
-### :small_orange_diamond:
+You can tint the current skybox with a color you want, whether you're using custom images or the presets.
+
+:::note
+The default value is gray.
+:::
+
+### :small_orange_diamond:Rotation
 
 <div className="highlight-div">
+Used to rotate the images of the custom skybox.
 </div>
 
-### :small_orange_diamond:
+Here you can set rotate the skybox. You can also do that by editing the images themselves.
+
+### :small_orange_diamond:Front/Back/Left/Right/Up/Down
 
 <div className="highlight-div">
+The custom images of the skybox.
 </div>
 
-### :small_orange_diamond:
-
-<div className="highlight-div">
-</div>
-
-### :small_orange_diamond:
-
-<div className="highlight-div">
-</div>
-
-### :small_orange_diamond:
-
-<div className="highlight-div">
-</div>
-
-### :small_orange_diamond:
-
-<div className="highlight-div">
-</div>
-
-### :small_orange_diamond:
-
-<div className="highlight-div">
-</div>
-
-### :small_orange_diamond:
-
-<div className="highlight-div">
-</div>
-
+Here you can change the preset images and create your own skybox using custom images.
