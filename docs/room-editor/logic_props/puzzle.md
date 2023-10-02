@@ -63,10 +63,15 @@ When not checked, the puzzle completed sound plays.
 Hints that help the player solve this puzzle.
 </div>
 
-Connects any number of walkthrough sections (use + to add more) - see effects of puzzles above for behaviour in different play modes.
+Here you can connect all walthrough sections that help the player solve this puzzle. 
 
-Here you can connect all walthrough sections
+If the + sign is grayed out you haven't added any walkthrough sections. You can do so in the publish options in the top left menu of the Room Editor.
 
+To add new hints for this puzzle press the + button and select a walkthrough section. You can delete the currently selected section by clicking the first option `Delete`.
+
+:::note
+See effects of puzzles above for behaviour in different play modes.
+:::
 
 ### :small_orange_diamond:Puzzle conditions
 
