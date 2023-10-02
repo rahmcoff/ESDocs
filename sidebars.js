@@ -44,6 +44,7 @@ const roomEditorSidebar = [
         'room-editor/logic_props/mirror',
         'room-editor/logic_props/obstacle',
         'room-editor/logic_props/open_link',
+        'room-editor/logic_props/skybox',
         'room-editor/logic_props/post_processing',
         'room-editor/logic_props/puzzle',
         'room-editor/logic_props/roulette',
