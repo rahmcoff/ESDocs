@@ -73,24 +73,24 @@ To add new hints for this puzzle press the + button and select a walkthrough sec
 See effects of puzzles above for behaviour in different play modes.
 :::
 
+
 ### :small_orange_diamond:Puzzle conditions
 
 <div className="highlight-div">
-Connect to all puzzles that must be solved for this puzzles to be available or solvable
+Link all puzzles that need to be solved before this one. All listed puzzles need to be solved before hints for this puzzle show up. If a player solves a puzzle with a condition without solving the condition first the condition is silently marked as solved without triggering.
 </div>
 
-### :small_orange_diamond:Competitor targets
-
-<div className="highlight-div">
-A signal (1) is sent to these targets by the puzzle when it's solved. In co-op, they are triggered for opponents. In single player, they are triggered for the triggering player
-</div>
-
-## 💡Tips
-:::tip
-To avoid triggering competitor targets for the active player (who has already solved the puzzle), route the signal from the puzzle through a lock (password 0,1). Connect the puzzle to pin 2, and connect the event that triggers the puzzle to pin 1.
-:::
+Connect to all puzzles that must be solved for this puzzles to be unlocked.
 
 :::tip
 A puzzle with no condition will reveal its hints at the beginning of the room. If you want to reveal them after other events (for example, when entering a room), use an additional puzzle as condition. Mute that puzzle's sound and leave its name empty, and trigger it when the real puzzle is reached.
 Note that this dummy puzzle will still appear in the puzzle count for versus mode.
 :::
+
+### :small_orange_diamond:Competitor targets
+
+<div className="highlight-div">
+Only active if the game is multiplayer and the lobby type is competitive. The targets are triggered at all players except the local player.
+</div>
+
+A signal is sent to these targets by the puzzle when it's solved. In versus (competitive) mode they are triggered for all players except for the player that solved the puzzle first.
