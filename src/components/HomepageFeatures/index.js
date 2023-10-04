@@ -5,19 +5,14 @@ const recentPosts = require("../../../.docusaurus/docusaurus-plugin-content-blog
 
 const HeroList = [
   {
-    image: './img/logo.png',
+    image: './img/book.png',
     title: 'Game',
     url: '/docs/intro'
   },
   {
-    image: './img/logo.png',
+    image: './img/re.png',
     title: 'Room Editor',
     url: '/docs/room-editor'
-  },
-  {
-    image: './img/logo.png',
-    title: 'Blog',
-    url: '/blog'
   }
 ]
 function Hero({ image, title, url }) {
@@ -45,7 +40,6 @@ export function HomepageHeros() {
     urlMetadata(lastBlogPost.permalink)
       .then((metadata) => {
         var url = metadata.image.replace(/([^:]\/)\/+/g, '$1');
-        // var url = "https://docs.escapesimulator.com/assets/images/rooms-52065626059047bd095c366315dfd968.jpg";
         const urlObject = new URL(url);
         setImageUrl(urlObject.pathname);
         setLoading(false);
@@ -66,7 +60,7 @@ export function HomepageHeros() {
           {HeroList.map((props, idx) => (
             <Hero key={idx} {...props} />
           ))}
-          <Hero image={imageUrl} title={lastBlogPost.title} url={lastBlogPost.permalink} />
+          <Hero image={imageUrl} title={"Blog: " + lastBlogPost.title} url={lastBlogPost.permalink} />
         </div>
       </section>
     );
