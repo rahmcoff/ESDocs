@@ -106,6 +106,7 @@
   margin: 0;
   font-size: 17px;
   color: #fff;
+  text-shadow: 5px 5px 10px black;
 }
 
 .statsTable {
