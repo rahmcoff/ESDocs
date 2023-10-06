@@ -15,8 +15,10 @@ Intended purpose is for showing off your other created rooms, linking a guide to
 ### :small_orange_diamond:Link (Steam/Wiki)
 
 <div className="highlight-div">
-Changes the website that the link will go to.
+Add a url link to a Steam, Steam Community or Wikipedia page. The link turns red if it is invalid.
 </div>
+
+Changes the website that the link will go to.
 
 :::tip  **Allowed Links**
   - steamcommunity.com/

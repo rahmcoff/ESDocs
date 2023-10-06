@@ -1,13 +1,35 @@
 
 # Post Processing
 
-An object to change the way that the player's screen will process light. When given an input it will enable the Post Processing object.
+An object to change the way that the player's screen will process light. When given an input it will enable the Post Processing object. You can also change the post processing during gameplay by triggering another Post Processing Prop at a later time. Only one Post Processing Prop can be active at a time. Triggering another Post Processing Prop will hide the previous settings.
 
 ![Post Processing Selector](./img/Post_Processing-Selector.png)
 
+:::note
+Just like with Fog, you must trigger another Post Processing object to turn off a Post Processing object
+:::
 
 ## Properties
 
+
+### :small_orange_diamond:Active On Start
+<div className="highlight-div">
+When checked, this effect is activated as soon as the player starts the room. Only one effect can be activated on start.
+</div>
+
+If checked, the Post Processing prop will be triggered as soon as the game begins.
+
+If not checked, the prop will remain there until triggered by e.g. an animation or a button.
+
+
+### :small_orange_diamond:Transition
+<div className="highlight-div">
+Time in seconds it takes to transition from one Post Processing setting to this one.
+</div>
+
+This value determines how long should this Post Processing be transitioned to when triggered. When this prop is triggered all of the currently active (in the scene) Post Processing settings will start to move towards the values in this Post Processing prop. So you can create a transition from e.g. a bright colorful environment, to a dark and gloomy one. Just set how many seconds should the transition last.
+
+Default is zero.
 
 ### :small_orange_diamond:Temperature
 
@@ -65,7 +87,3 @@ How different do you want the luminance and color to be in the scene. At the low
 </div>
 
 ![Post Processing Selector](./img/pp/contrast.gif)
-
-## 💡Tips
-
-Just like with Fog, you must trigger another Post Processing object to turn off a Post Processing object
