@@ -8,6 +8,9 @@ Triggers are highly useful Logic Items that check if a certain trigger object is
 
 ![Trigger Selector](./img/Trigger-Selector.png)
 
+:::tip
+Triggers do not register On Enter and On Exit events when toggled by a Visibility Activator. If you're having issues with some events not triggering and you're using a Visibility Activator try to animate the position of the Trigger below or above the play area instead of disabling it.
+:::
 
 ## Properties
 
