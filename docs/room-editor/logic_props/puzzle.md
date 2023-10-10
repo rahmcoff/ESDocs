@@ -94,3 +94,7 @@ Only active if the game is multiplayer and the lobby type is competitive. The ta
 </div>
 
 A signal is sent to these targets by the puzzle when it's solved. In versus (competitive) mode they are triggered for all players except for the player that solved the puzzle first.
+
+## Video Tutorial
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/-zElYyd9wD4?si=hMuYgBTmGzisnL3v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
