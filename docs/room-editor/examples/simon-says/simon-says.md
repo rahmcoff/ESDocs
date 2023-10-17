@@ -6,7 +6,7 @@ A few days ago I mentioned putting together a tutorial on how I'm using the new 
 ## Part 1/3
 ### FIGURE 1: THE BASIC SETUP (note this is a top-down view, but orientation doesn't matter)
 
-<img src="https://github.com/xviable/escape-sim-room-editor-docs/blob/main/images/Roulette%20Figure%201.png" width="700">
+<img src="https://github.com/k8sparrot/ESDocs/blob/main/docs/room-editor/examples/simon-says/img/Roulette%20Figure%201.png" width="700">
 
 Each horizontal row of triggers + empties is a parent chain that moves to the right, so the yellow empty is the master parent, followed by the red empty, etc. All the way to the leftmost blue trigger box. There is one horizontal row for each digit in the passcode.
 
