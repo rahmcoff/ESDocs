@@ -10,7 +10,7 @@ This site is for update news, documentation, how-to and FAQ for [Escape Simulato
 
 ## About the game
 
-### 28 fine crafted Pine rooms
+### 28 Fine Crafted Pine rooms
 
 Pine Studio made 28 rooms for you to escape with variety of themes.
 From Space to Victorian era, you will find your cup of tea.
@@ -18,16 +18,22 @@ From Space to Victorian era, you will find your cup of tea.
     <img src={require('./img/ES_compilation_screen.png').default}/>
 </div>
 
-### 2 full fledged DLCs
+### 2 Full Fledged DLCs
 
-Explore additional 8 rooms set on a steampunk airship and in the wild wild west. 
+Explore additional 8 rooms set on a steampunk airship and in the wild wild west.
 <div className="article-card" style={{float:'left'}}>
     <img src={require('./img/bannerDlc1.png').default}/>
 </div>
 <div className="article-card" style={{float:'left'}}>
     <img src={require('./img/bannerDlc2.png').default}/>
 </div>
+<div style={{clear:'left'}}/>
 
+### Portal DLC
+Explore the detailed environment of the mysterious subdivision of Aperture Science Laboratories!
+<div className="article-card" style={{float:'left'}}>
+    <img src={require('./img/bannerPortal.png').default}/>
+</div>
 <div style={{clear:'left'}}/>
 
 ### More than 3000 community rooms
