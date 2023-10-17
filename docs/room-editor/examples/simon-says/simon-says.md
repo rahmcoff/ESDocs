@@ -14,7 +14,7 @@ The central vertical channel ("Where the magic happens") is what will determine 
 
 ### FIGURE 2: ROULETTE ACTION
 
-<img src="https://github.com/xviable/escape-sim-room-editor-docs/blob/main/images/Roulette%20Figure%202.png" width="700">
+<img src="https://github.com/k8sparrot/ESDocs/blob/main/docs/room-editor/examples/simon-says/img/Roulette%20Figure%202.png" width="700">
 
 There is a separate roulette wheel for each pin in the passcode. Each roulette wheel randomly targets one of the four colored empties in the chain. The empties are animations that drag all their children a different number of units to the right: yellow drags 0.25 units, red drags 0.5, green drags 0.75, and blue drags 1.0.
 
@@ -22,7 +22,7 @@ Thus, when yellow is triggered, the yellow trigger will move into the "magic" ch
 
 ### FIGURE 3: EXAMPLE PASSCODE
 
-<img src="https://github.com/xviable/escape-sim-room-editor-docs/blob/main/images/Roulette%20Figure%203.png" width="700">
+<img src="https://github.com/k8sparrot/ESDocs/blob/main/docs/room-editor/examples/simon-says/img/Roulette%20Figure%203.png" width="700">
 
 Here you can see the result after the roulette wheels randomly selected (from bottom to top) the passcode Yellow, Green, Red, Blue, Blue, Red. These triggers have been moved into the "magic" channel. Also note because the empty waypoints range from 0.25 to 1.0 (yellow to blue), the end result is that the targeted empties all end up in the same vertical channel at the far right, which is why their colored triggers line up in the "magic" channel.
 
@@ -30,7 +30,7 @@ Here you can see the result after the roulette wheels randomly selected (from bo
 
 ### FIGURE 4: SOLUTION CHANNEL AND RESET CHANNEL
 
-<img src="https://github.com/xviable/escape-sim-room-editor-docs/blob/main/images/Roulette%20Figure%204.png" width="700">
+<img src="https://github.com/k8sparrot/ESDocs/blob/main/docs/room-editor/examples/simon-says/img/Roulette%20Figure%204.png" width="700">
 
 I have been referring to the "magic" channel and colored triggers as if they are singular entities, but there are actually two triggers in every color block. The left trigger corresponds to what I call the Solution Channel, and the right trigger corresponds to what I call the Reset Channel.
 
@@ -42,7 +42,7 @@ There might be a way to combine these, but that might take more logic since the 
 
 ### FIGURE 5: PLAYER INPUT
 
-<img src="https://github.com/xviable/escape-sim-room-editor-docs/blob/main/images/Roulette%20Figure%205.png" width="700">
+<img src="https://github.com/k8sparrot/ESDocs/blob/main/docs/room-editor/examples/simon-says/img/Roulette%20Figure%205.png" width="700">
 
 These tiny colored empties hover above the Solution Channel for each pin. When a player enters the corresponding color on my pressure plates, that colored empty bounces down into the Solution Channel where a colored trigger awaits, then back up again.
 If the empty hits the trigger that matches its own color (and only detects that color), that input is captured in a Continuous Lock (Figure 7).
@@ -54,7 +54,7 @@ I have separate sets of pressure plate triggers corresponding to each pin, that 
 
 ### FIGURE 6: RESETTING THE PASSCODE
 
-<img src="https://github.com/xviable/escape-sim-room-editor-docs/blob/main/images/Roulette%20Figure%206.png" width="700">
+<img src="https://github.com/k8sparrot/ESDocs/blob/main/docs/room-editor/examples/simon-says/img/Roulette%20Figure%206.png" width="700">
 
 The large empty is detected by every colored trigger that could be in the Reset Channel (depending on which colored empty was selected by the roulette wheel for each pin). When then passcode needs to be reset, this empty runs through the channel, hitting all of the colored triggers that are part of the current passcode.
 
@@ -62,7 +62,7 @@ When each reset trigger is hit, the corresponding empty in the chain reverses it
 
 ### FIGURE 7: DISPLAYS AND LOCK LOGIC
 
-<img src="https://github.com/xviable/escape-sim-room-editor-docs/blob/main/images/Roulette%20Figure%207.png" width="700">
+<img src="https://github.com/k8sparrot/ESDocs/blob/main/docs/room-editor/examples/simon-says/img/Roulette%20Figure%207.png" width="700">
 
 I use two displays in this setup. The first is the Answer Key and shows the current randomly selected passcode (Yellow = 1, Red = 2, Green = 3, Blue = 4). The way this works is that each colored empty targeted by a roulette wheel sends that digit back to a specific pin in the In Place lock, that drives the answer key display.
 
