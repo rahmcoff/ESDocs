@@ -3,8 +3,9 @@ sidebar_position: 5
 title: "FAQ"
 ---
 
+Find the answers to some of the most common questions and problems here.
 
-# 🤼 Multiplayer
+## Multiplayer
 
 <details><summary><h4>If you have issues with co-op/multiplayer</h4></summary>
 
@@ -26,9 +27,9 @@ title: "FAQ"
 
 </details>
 
-# 🔨Room Editor
+## Room Editor
 
-## 📁 Working with folders
+### 📁 Working with folders
 
 <details><summary> <h4>Accessing the custom room UGC folder</h4></summary> 
 
@@ -94,7 +95,7 @@ The 'Id.bin' file is created when first publishing the room to the Steam worksho
 
 </details>
 
-## 🎬 Publishing a room
+### 🎬 Publishing a room
 
 <details><summary> <h4>Room fails to publish</h4></summary> 
 
