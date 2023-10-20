@@ -1,50 +1,127 @@
-# Animation
+# Animation (WIP)
 
 Animations are the heart and soul of every good room. Not only will they make it seem more alive, but they are also used in a multitude of workarounds! So keep on reading, even if you think you know your way around animations already.
 
+![Animation](./img/animation_selector.png)
+
 ## Properties
 
-### :small_orange_diamond:EDIT WAYPOINT
-Used to set the end-point of an animation.
+### :small_orange_diamond:Edit Waypoint
 
-### :small_orange_diamond:DURATION
+<div className="highlight-div">
+Set the endpoint position and rotation of the movement.
+</div>
+
+Clicking the button will open the special Animation settings screen where you can set the final position of the Animation.
+
+![Animation - Edit Waypoint](./img/animation_settings.png)
+
+Here you can move the camera as you move it in the Room Editor (holding right click and using the WASDQE keys for movement) and move the position of the Animation prop. Scale changes are ignored for the Animation.
+
+:::note
+Only the props that are set as children to the prop with the Animation behaviour will be animated.
+:::
+
+### :small_orange_diamond:Duration
+
+<div className="highlight-div">
+Defines the duration of the animation and how much time needs to pass before the end actions are executed.
+</div>
+
 Shows the seconds which it will take the animation to go from start to end-point. An animation with 0 seconds duration will instantly teleport the object.
 
-### :small_orange_diamond:OUTPUT VALUE
-This number will be sent out to locks that are linked to the animation ON COMPLETE.
+:::tip
+0 Seconds animations can be used to swap objects seamlessly! This can be useful if you want e.g. a Button to first not work, but later to open something, just swap the non working button for a working one.
+:::
 
-### :small_orange_diamond:INTERPOLATION
-SMOOTH or LINEAR. Smooth gives an animation a more natural look, by changing speed at the beginning and end of the animation. Linear will make the animation move at a constant speed.
+### :small_orange_diamond:Output Value
 
-### :small_orange_diamond:BOUNCE
+<div className="highlight-div">
+Number that will be sent to the targeted props on correct completion.
+</div>
+
+This number will be sent out to locks that are linked to the animation `On Complete`.
+
+:::tip
+Check out the already assembled Keypad prop which takes the output of each numbered button and sends it to a Lock prop.
+:::
+
+### :small_orange_diamond:Interpolation
+
+<div className="highlight-div">
+Smooth - the start and end speed are smoothed out so it doesn't start or end abruptly.
+Linear - keeps the same speed during the entire animation.
+</div>
+
+`Smooth` gives an animation a more natural look, by changing speed at the beginning and end of the animation. `Linear` will make the animation move at a constant speed.
+
+### :small_orange_diamond:Bounce
+
+<div className="highlight-div">
+When checked, it will animate back to its original position and send out the 'Output Value'.
+When not checked, it has an 'On/Off' state and will toggle between the 'Output Value' and zero.
+</div>
+
 This will make the animation animate backwards after it completed its path.
 
-### :small_orange_diamond:LOOP
+The `On Complete` targets are triggered when the animation reaches the Waypoint.
+
+
+### :small_orange_diamond:Pause (sec)
+
+<div className="highlight-div">
+Determines the amount of time to wait before bounce.
+</div>
+
+:::note
+This property is only active if the `Bounce` property is active
+:::
+
+### :small_orange_diamond:Loop
+
+<div className="highlight-div">
+
+</div>
+
 This will keep the animation playing once triggered. If bounced, it will move back and forth. If not bounced, the item will teleport to its original position and then repeat the animation.
 
 ### :small_orange_diamond:AUTOPLAY
 The animation is triggered as soon as the level is started. Most useful in combination with "loop" for ambience animations.
 
+<div className="highlight-div">
+
+</div>
+
 ### :small_orange_diamond:DELAY
 It will take so many seconds before the animations starts playing, when the animated object is activated for the first time. If the object is activated again, it will not be delayed again! This is sad and I hope it gets fixed.
+
+<div className="highlight-div">
+
+</div>
 
 ### :small_orange_diamond:PICKABLE
 This allows you to make an animated item also be a pickable. Often it is needed to make pickable items be animated even when they are not intended to move in any way! More on that a bit further down in the tips.
 
+<div className="highlight-div">
+
+</div>
+
 ### :small_orange_diamond:ON COMPLETE
 The items/actions that get triggered after the animation reached its endpoint. If connected to a lock the animation will send a "1" on complete and a "0" on complete of the reverse animation.
 
+<div className="highlight-div">
+
+</div>
+
 
 ## Helpful Tips
-<div className="highlight-div">
-    IMPORTANT: You cannot make animations be keys to a slot.
-    So make the item pickable, assign it as key, and THEN make it an animation with "pickable" checked.
-    This way it works, cause the item carries over its key properties.
-</div>
 
-<div className="highlight-div">
-    0 Seconds animations can be used to swap objects seamlessly! This can be useful if you want a Button to first not work but later open something, for example.
-</div>
+:::note
+IMPORTANT: You cannot make animations be keys to a slot.
+So make the item pickable, assign it as key, and THEN make it an animation with "pickable" checked.
+This way it works, cause the item carries over its key properties.
+:::
+
 
 <div className="highlight-div">
     Animations do not obey physics, but will move with their "parent" and act like a static in game. 

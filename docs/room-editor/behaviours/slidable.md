@@ -1,4 +1,4 @@
-# Slidable (WIP)
+# Slidable
 Allows you to slide a prop between 2 points.
 
 ![Slidable](./img/slidable_selector.png)
@@ -46,7 +46,7 @@ The Slidable will animate to the closest snap position when let go. The output v
 
 ![Snap mode - Closest](./img/slidable_closest.gif)
 
-- `Starting `
+- `Starting`
 
 The Slidable will animate to the Starting Node when let go. The output value will be sent to the connected locks as soon as the player stops the interaction. The Starting Node can be set by another setting.
 
@@ -73,9 +73,22 @@ This is where you will select which Locks (and their value position) you want th
 ### :small_orange_diamond:Starting Node
 
 <div className="highlight-div">
-
+Set the index of the position you want the 'Slidable' to start at.
 </div>
 
+This will be the starting position when starting the room and the return point if the snap mode `Starting` was chosen. The indexing of the nodes does not change and they will return the same values as with the default 0 starting node.
+
+### :small_orange_diamond:Snap Animation Duration
+
+<div className="highlight-div">
+Snap animation duration in seconds. If zero, snapping will not be animated. Default is 0.3.
+</div>
+
+This duration in seconds show the amount of time it will take the Slidable to traverse the distance from one node to the other.
+
+e.g. If the snapping mode `Closest` is selected and the player releases the Slidable right in the middle of two nodes, the time it takes the slidable to snap to the closest node will be half the Snap Animation Duration.
+
+e.g. If the snapping mode `Starting` is selected and the player releases the Slidable three nodes away from the Starting node, it will take the Slidable 3 times the Snap Animation Duration.
 
 ## Common uses
 - Add to drawers that can be opened via sliding.

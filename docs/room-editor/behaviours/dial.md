@@ -1,4 +1,4 @@
-# Dial
+# Dial (WIP)
 Dials are the most obscure object class as of now. They are rarely used because they are a bit buggy and Turnables basically do the same job. But for some riddles you might need to try your luck with them! They have some unique features. It e.g. allows a turning puzzle piece that does not "snap" into position.
 
 ## Properties

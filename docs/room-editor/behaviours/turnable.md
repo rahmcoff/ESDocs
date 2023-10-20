@@ -1,4 +1,4 @@
-# Turnable
+# Turnable (WIP)
 Turnables are used as inputs for locks. They can give a range of values as output, starting with 0 and ending with the number of steps you assign -1
 
 ## Properties

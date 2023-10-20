@@ -1,4 +1,4 @@
-# Button
+# Button (WIP)
 The button property is used to make an object into a clickable button. In game the cursor turns into a cogwheel when hovering over it, indicating that it is interactable.
 
 ### Properties
