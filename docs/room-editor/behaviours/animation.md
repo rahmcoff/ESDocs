@@ -53,7 +53,16 @@ Smooth - the start and end speed are smoothed out so it doesn't start or end abr
 Linear - keeps the same speed during the entire animation.
 </div>
 
-`Smooth` gives an animation a more natural look, by changing speed at the beginning and end of the animation. `Linear` will make the animation move at a constant speed.
+`Smooth` gives an animation a more natural look, by changing speed at the beginning and end of the animation. Starts slow but speeds up, when it get's near the end it slows down before reaching a full stop.
+
+
+![Animation smooth interpolation](./img/animation_smooth.gif)
+
+
+`Linear` will make the animation move at a constant speed.
+
+![Animation linear interpolation](./img/animation_linear.gif)
+
 
 ### :small_orange_diamond:Bounce
 
@@ -64,7 +73,7 @@ When not checked, it has an 'On/Off' state and will toggle between the 'Output V
 
 This will make the animation animate backwards after it completed its path.
 
-The `On Complete` targets are triggered when the animation reaches the Waypoint.
+The `On Complete` targets are triggered and the `Output Value` is sent when the animation reaches the Waypoint.
 
 
 ### :small_orange_diamond:Pause (sec)
@@ -73,6 +82,8 @@ The `On Complete` targets are triggered when the animation reaches the Waypoint.
 Determines the amount of time to wait before bounce.
 </div>
 
+When the animation prop reaches the Waypoint the prop will stay there for `Pause` seconds and then return.
+
 :::note
 This property is only active if the `Bounce` property is active
 :::
@@ -80,10 +91,18 @@ This property is only active if the `Bounce` property is active
 ### :small_orange_diamond:Loop
 
 <div className="highlight-div">
-
+When checked, the animation and the activation signal it sends out is looped.
 </div>
 
-This will keep the animation playing once triggered. If bounced, it will move back and forth. If not bounced, the item will teleport to its original position and then repeat the animation.
+This will keep the animation playing once triggered.
+
+If bounced, it will move back and forth.
+
+![Animation bounced loop](./img/animation_linear.gif)
+
+If not bounced, the item will teleport to its original position and then repeat the animation.
+
+![Animation non bounced loop](./img/animation_loop.gif)
 
 ### :small_orange_diamond:AUTOPLAY
 The animation is triggered as soon as the level is started. Most useful in combination with "loop" for ambience animations.
