@@ -2,7 +2,7 @@
 
 ---
 
-# Fog
+# Fog (WIP)
 Fog is currently the only way to change the lighting in workshop rooms. It can be activated. In order to deactivate it, a Fog with 0 density must be activated instead.
 
 ![Fog Selector](./img/Fog-Selector.png)

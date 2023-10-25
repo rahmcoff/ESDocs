@@ -2,7 +2,7 @@
 
 ---
 
-# Light
+# Light (WIP)
 A colorful light to be used in your rooms, it can be switched between Spot-lights, Directional-lights and Point-lights. 
 
 ![Light Selector](./img/Light-Selector.png)

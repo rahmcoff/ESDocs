@@ -2,7 +2,7 @@
 
 ---
 
-# Lock
+# Lock (WIP)
 
 Locks are a logic object that, when sent its configured password, will "unlock" and can send an output to another logic object or other objects with specific "Behavior" <!-- TODO: Set a link to behaviors page --> properties set. Locks are used to trigger events (opening chests, winning, animations, etc) when certain requirements are met.
 

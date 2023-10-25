@@ -2,7 +2,7 @@
 
 ---
 
-# Finish
+# Finish (WIP)
 This logic item will show the victory screen when an input is given to it. The camera will rotate around a given location. If no properties are changed, it will rotate at the default spawn (0, 0)
 
 ![Finish Selector](./img/Finish-Selector.png)
