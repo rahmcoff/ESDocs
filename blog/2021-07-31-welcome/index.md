@@ -1,7 +1,7 @@
 ---
 title: Welcome
 authors: [pine]
-tags: [pine, hello]
+tags: [pine, dev-update]
 ---
 
 ![Logo](./logo.png)

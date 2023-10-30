@@ -1,7 +1,7 @@
 ---
 title: One million players reached & Cats in time
 authors: [pine]
-tags: [update]
+tags: [update, dev-update]
 ---
 
 ![Milion](./milion.gif)
