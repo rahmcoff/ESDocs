@@ -2,7 +2,7 @@
 
 ---
 
-# Lock (WIP)
+# Lock
 
 Locks are a logic object that, when sent its configured password, will "unlock" and can send an output to another logic object or other objects with specific `Behavior` properties set. Locks are used to trigger events (opening chests, winning, animations, etc) when certain requirements are met.
 
@@ -23,6 +23,27 @@ Remember that Dials and Turnables are able to give input that ranges from 0 to w
 
 :::tip
 The easiest way to see what a `Lock` has in the password field while testing the game is to use the `Display` logic prop.
+:::
+
+ 
+## Password Indexes
+The lock object has multiple "indexes" to pass values to from zero up to the number of values your password contains. These appear when you are targetting the lock with another behaviour or logic prop (e.g. when setting the `On Complete` of a `Button` behaviour). They represent the password variables that you can change with a behaviour or logic prop while playing. 
+
+![Lock Indexes](./img/lock/lock_indexes.png)
+
+In the image above is an example of a `Lock` prop with the password set to (5,2,7,8). The numbers shown in the image are the `Password` you set.
+
+There are different colors for the indexes:
+- If the index is colored _black_, you can target that index. Like the 2 and 7 in the image.
+- If the index is colored _gray_, that means that index can't be targeted because it is already targeted by the targeting prop. Like the 5 in the image.
+- If the index is colored _orange_, that means you are currently targeting it. Like the 8 in the image.
+
+There are also two special indexes to the left of the password indexes. These are used for special operations:
+- The green `U` is Unlock. Targeting this index will unlock the lock even though the password is not set correctly. This way you can for instance easily set up a button to pass certain puzzles easily while you're testing the game. (They can be accessed from Scripts by using the targeting index -500)
+- The red `R` is Reset. Targeting this index will reset the lock's current values to 0. (They can be accessed from Scripts by using the targeting index -400)
+
+:::tip
+If you're using the `Continuous` or the `Fixed` lock you can target any index, but make sure you're only targeting one!
 :::
 
 ## Properties
@@ -133,32 +154,59 @@ Exclusive XOR - there must be only one correct value.
 This determines how the lock handles input. Intended for more complex logical operation, mostly used with the `Inplace` lock type.
 
 Each value in the lock can at any moment be considered as true or false, by comparing the password value with the actual inputted value at that position (for `Inplace`), e.g. a password of (1,2,3) with the input of (2,2,2) will for the purposes of the logic operations be read as (false, true, false) results.
-These true/false results and the `Logic Type` operation used will determine if the `Lock` should be locked or unlocked.
+These true/false results and the `Logic Type` operation used will determine if the `Lock` should be locked or unlocked. In the tables below A, B and C represent the results from the three different password indexes and their result in their respective logical operation.
 
 For example, let's have 3 `Turnable`s each connected to a different index on an `Inplace` lock with a password of (1,2,3):
 
 #### AND
-For the AND operation to return _true_, all inputs need to be _true_. This means that for the `Inplace` lock every value inputted needs to match the position and the number, e.g. for the (1,2,3) password, the only _true_ return from the AND operation is if the results are (true, true, true), which is only the case for the inputted numbers (1,2,3).
+For the AND operation to return _true_, all inputs need to be _true_.
+
+![AND](./img/lock/AND.png)
+
+This means that for the `Inplace` lock every value inputted needs to match the position and the number, e.g. for the (1,2,3) password, the only _true_ return from the AND operation is if the results are (true, true, true), which is only the case for the inputted numbers (1,2,3).
 
 ![AND operation](./img/lock/lock_AND.gif)
 
 #### OR
-For the OR operation to return _true_, one or all of the inputs need to be _true_. This means that for the `Inplace` lock at least one of the values inputted need to match the position and the number, e.g. for the (1,2,3) password, one of the 7 possible _true_ returns from the OR operation is if the results are (false, true, false), which is the case for the inputted numbers (-,2,-).
+For the OR operation to return _true_, one or more of the inputs need to be _true_.
+
+![OR](./img/lock/OR.png)
+
+This means that for the `Inplace` lock at least one of the values inputted need to match the position and the number, e.g. for the (1,2,3) password, one of the 7 possible _true_ returns from the OR operation is if the results are (false, true, false), which is the case for the inputted numbers (-,2,-).
 
 ![OR operation](./img/lock/lock_OR.gif)
 
-#### XOR
-The difference between `Parity XOR` and `Exclusive XOR` is...
+#### Exclusive XOR
+For the Exclusive XOR to return _true_, only one of all of the inputs needs to be _true_.
 
-https://en.wikipedia.org/wiki/Parity_bit
+![Exclusive XOR](./img/lock/ExclusiveXOR.png)
 
+This means that for the `Inplace` lock only one of the values inputted need to match the position and the number, e.g. for the (1,2,3) password, one of the 3 possible _true_ returns from the OR operation is if the results are (false, true, false), which is the case for the inputted numbers (-,2,-).
+
+__Difference between XOR and Exclusive XOR__: OR is more permissive, returns _true_ for any _true_ result, including multiple _true_ results, e.g. OR will return true if the results are (true, true, false). Exclusive XOR returns true only for one _true_ result.
+
+__Difference between Exclusive XOR and Parity XOR__: Parity XOR is more permissive, returns true for an odd number of _true_ results, while Exclusive XOR will only return true if one result is _true_
+
+#### Parity XOR
+For the Parity XOR to return _true_, an odd number of all of the inputs needs to be _true_.
+
+![Parity XOR](./img/lock/ParityXOR.png)
+
+This means that for the `Inplace` lock an odd number of the values inputted need to match the position and the number, e.g. for the (1,2,3) password, one of the 4 possible _true_ returns from the OR operation is if the results are (false, true, false) which is the case for the inputted numbers (-,2,-). Mostly used for more complicated logic gates.
+
+__Difference between OR and Parity XOR__: OR is more permissive, returns _true_ for any _true_ result, including an even number of _true_ results, e.g. OR will return true if the results are (true, true, false). Parity XOR returns true only for an odd number of _true_ results.
+
+__Difference between Exclusive XOR and Parity XOR:__ Parity XOR is more permissive, returns true for any odd number of _true_ results, while Exclusive XOR will only return true if one result is _true_
 
 
 ### :small_orange_diamond:Negate
 <div className="highlight-div">
 When checked, the logic will be reversed. Any password that is not correct will unlock the lock, and every correct password will lock the lock.
 </div>
-Any input that is NOT the correct password will make the lock unlock. This is used for logic gate setups.
+
+`Negate` takes the final result from the `Logic Type` operation and inverts it, _true_ becomes _false_ and _false_ becomes _true_. This is used for logic gate setups.
+
+![Negate Exclusive XOR](./img/lock/NegateXOR.png)
 
 ### :small_orange_diamond:Disable On Unlock
 <div className="highlight-div">
@@ -208,9 +256,3 @@ If the password conditions are no longer met, things that are added here will ge
 :::note
 `On Lock` cannot be uset to send a 1/0 value to another lock, to circumvent that you can target an Animation that targets the other lock.
 :::
-
- 
-## Password Indexes
-The lock object has multiple "indexes" to pass values to from zero up to the number of values your password contains
-- Locks also have a reset field, "R", that can be accessed from Scripts by targeting index -400
-- Locks also have a master unlock field, "U", that can be accessed from Scripts by targeting index -500

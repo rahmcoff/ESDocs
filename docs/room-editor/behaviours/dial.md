@@ -1,5 +1,5 @@
 # Dial (WIP)
-Dials are the most obscure object class as of now. They are rarely used because they are a bit buggy and Turnables basically do the same job. But for some riddles you might need to try your luck with them! They have some unique features. It e.g. allows a turning puzzle piece that does not "snap" into position.
+A `Dial` is a behaviour that that can be placed on a prop that is meant to be used for interactions with props where you want the player to rotate the mouse across the screen. For instance, if you have a 'Valve' prop and it is pointing at the screen, you will most likely want to use a `Dial` behaviour and not the `Turnable` because turnables only rotate by moving the mouse in two direction (e.g. right - left). This is most useful when you can limit the player's viewing angle, e.g. by using it in a `Zoomable` where the player can not change the view. If used from strange views it can appear buggy, so test your room to determine if you need a `Dial` or a `Turnable`.
 
 ## Properties
 
