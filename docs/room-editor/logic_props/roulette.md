@@ -54,3 +54,7 @@ Testing target is only active while in the Room Editor.
 Below is a short video tutorial on how to use the Roulette prop. And here is the link to the tutorial room so you can subscribe to it and check it out yourself: [Roulette Tutorial Room](https://steamcommunity.com/sharedfiles/filedetails/?id=3010744629) 
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/loMYgc5OnJU" title="Escape Simulator: Roulette Prop Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Expert tips
+
+You can find an example of how Franch used the Roulette logic in his winning "Get Down Get Down" room in our "Expert Examples" tab.
