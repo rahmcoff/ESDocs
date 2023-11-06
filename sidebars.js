@@ -33,6 +33,7 @@ const roomEditorSidebar = [
   {
     type: 'category', label: 'Logic Props', items:
       [
+        'room-editor/logic_props/activator',
         'room-editor/logic_props/collider',
         'room-editor/logic_props/display',
         'room-editor/logic_props/empty',
