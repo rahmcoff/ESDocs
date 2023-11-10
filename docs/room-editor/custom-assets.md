@@ -20,7 +20,7 @@ A set of assets using transparencies - very valuable!
 
 <div className="highlight-div">
 
-## Timer and Stopwatch Tutorial ~ GhostofPoop
+## Timer and Stopwatch Tutorial ~ Tim "J"
 
 Ever wanted to use a timer? Don't forget to check the video embedded in the description on Steam (within the link). 
 
@@ -28,8 +28,7 @@ Ever wanted to use a timer? Don't forget to check the video embedded in the desc
 
 <div className="highlight-div">
 
-## Word Locks ~ GhostofPoop
-
+## Word Locks ~ ChazzyB
 Assets to create a word-based lock. 
 
 [Find the locks here](http://steamcommunity.com/sharedfiles/filedetails/?id=2916590887)
