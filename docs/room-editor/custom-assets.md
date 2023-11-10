@@ -49,7 +49,7 @@ Various Victorian assets. Note that this is an older asset pack.
 
 A guide on how to use post-processing. 
 
-[Find the guide here](http://steamcommunity.com/sharedfiles/filedetails/?id=3015642910)
+[Find the guide here](https://steamcommunity.com/sharedfiles/filedetails/?id=2978895641)
 </div>
 
 <div className="highlight-div">
