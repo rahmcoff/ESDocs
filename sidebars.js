@@ -2,7 +2,7 @@
 const gameSidebar = [
   { type: 'doc', id: 'intro/intro', },
   { type: 'doc', id: 'patch-history', },
-  { type: 'doc', id: 'faq/faq', },
+  { type: 'doc', id: 'game-faq/game-faq', },
   {
     type: 'category', label: 'Stream VODs', items:
       [
@@ -29,6 +29,7 @@ const gameSidebar = [
 const roomEditorSidebar = [
   { type: 'doc', id: 'room-editor/room-editor', },
   { type: 'doc', id: 'room-editor/room-editor-handbook', },
+  { type: 'doc', id: 'room-editor/room-editor-faq/room-editor-faq', },
   { type: 'doc', id: 'room-editor/custom-models', },
   {
     type: 'category', label: 'Logic Props', items:
