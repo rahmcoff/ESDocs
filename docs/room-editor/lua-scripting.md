@@ -228,3 +228,8 @@ In the code, you can acces all the variables of any object. Here are the variabl
 * **bool targetObject**: Does this activator change the state of the objects (enabled or disables)
 * **bool targetRenderer**: Does this activator change the state of the objects renderers (visible or invisible)
 * **bool targetCollider**:  Does this activator change the state of the objects collider (active or inactive)
+* 
+# More information
+
+## Custom assets and tutorials
+You can find community-developed assets and tutorials in the "Custom Assets" tab. If you still need help, check out the lua-scripting channel on our Discord!
