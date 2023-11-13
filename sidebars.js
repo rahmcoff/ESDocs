@@ -30,7 +30,6 @@ const roomEditorSidebar = [
   { type: 'doc', id: 'room-editor/room-editor', },
   { type: 'doc', id: 'room-editor/room-editor-handbook', },
   { type: 'doc', id: 'room-editor/custom-models', },
-  { type: 'doc', id: 'room-editor/custom-assets', },
   {
     type: 'category', label: 'Logic Props', items:
       [
@@ -92,15 +91,16 @@ const roomEditorSidebar = [
     },
   },
   {
-    type: 'category', label: 'Expert Examples', items:
+    type: 'category', label: 'Community', items:
       [
-        'room-editor/examples/simon-says/simon-says'
+        'room-editor/examples/simon-says/simon-says',
+        'room-editor/custom-assets'
       ],
     link: {
       type: 'generated-index',
       description: "Explore a growing collection of examples from our community."
     },
-  },
+  }
 ]
 
 module.exports = {gameSidebar, roomEditorSidebar}

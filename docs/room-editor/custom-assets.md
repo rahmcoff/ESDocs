@@ -10,6 +10,8 @@ An openable book that you can retexture, add text and use in your own room.
 
 [Find the book here](http://steamcommunity.com/sharedfiles/filedetails/?id=3015061593)
 
+</div>
+
 <div className="highlight-div">
 
 ## Transparent Shapes ~ Robin
@@ -17,6 +19,8 @@ An openable book that you can retexture, add text and use in your own room.
 A set of assets using transparencies - very valuable! 
 
 [Find the shapes here](http://steamcommunity.com/sharedfiles/filedetails/?id=3012012265)
+
+</div>
 
 <div className="highlight-div">
 
@@ -26,12 +30,16 @@ Ever wanted to use a timer? Don't forget to check the video embedded in the desc
 
 [Find the tutorial video and assets here](http://steamcommunity.com/sharedfiles/filedetails/?id=3004043977)
 
+</div>
+
 <div className="highlight-div">
 
 ## Word Locks ~ ChazzyB
 Assets to create a word-based lock. 
 
 [Find the locks here](http://steamcommunity.com/sharedfiles/filedetails/?id=2916590887)
+
+</div>
 
 <div className="highlight-div">
 
@@ -40,6 +48,7 @@ Assets to create a word-based lock.
 Various Victorian assets. Note that this is an older asset pack. 
 
 [Find the assets here](http://steamcommunity.com/sharedfiles/filedetails/?id=2796496495)
+
 </div>
 
 <div className="highlight-div">
@@ -49,6 +58,7 @@ Various Victorian assets. Note that this is an older asset pack.
 A set of assets using post-processing. 
 
 [Find the asset here](https://steamcommunity.com/sharedfiles/filedetails/?id=2978895641)
+
 </div>
 
 <div className="highlight-div">
@@ -58,6 +68,7 @@ A set of assets using post-processing.
 An overview of some of the logic systems. 
 
 [Find the tutorial here](http://steamcommunity.com/sharedfiles/filedetails/?id=2639448061)
+
 </div>
 
 <div className="highlight-div">
@@ -67,6 +78,7 @@ An overview of some of the logic systems.
 Just what it says! 
 
 [Find the asset here](http://steamcommunity.com/sharedfiles/filedetails/?id=2844437720)
+
 </div>
 
 <div className="highlight-div">
@@ -76,6 +88,7 @@ Just what it says!
 We all need to generate "random" numbers sometimes. 
 
 [Find the asset here](http://steamcommunity.com/sharedfiles/filedetails/?id=2783720868)
+
 </div>
 
 <div className="highlight-div">
@@ -85,6 +98,7 @@ We all need to generate "random" numbers sometimes.
 Get help starting with lua. 
 
 [Find the asset here](http://steamcommunity.com/sharedfiles/filedetails/?id=2809817128)
+
 </div>
 
 <div className="highlight-div">
@@ -94,4 +108,15 @@ Get help starting with lua.
 More help getting started with lua. 
 
 [Find the asset here](http://steamcommunity.com/sharedfiles/filedetails/?id=2810901373)
+
+</div>
+
+<div className="highlight-div">
+
+## LUA Lantern ~ GG3L
+
+A lantern that follows you via the magic of lua. Works in coop too.
+
+[Find the lantern here](https://steamcommunity.com/sharedfiles/filedetails/?id=3044396073&searchtext=lantern)
+
 </div>
