@@ -237,6 +237,10 @@ This is commonly used for prevent people from button mashing and getting the cor
 If you don't want to add a delay to the check but want to discourage brute forcing a puzzle, you can try adding a lever or a button that the player has to press every time they input the password so that the password is checked only when that button is pressed. Check out the Keypad prop to see how to set that up.
 :::
 
+:::note
+There is a bug that causes the `Lock` to ignore the `Check Password Delay` when the value comes from a `Trigger` logic prop.
+:::
+
 ### :small_orange_diamond:On Unlock
 <div className="highlight-div">
 The targeted props will be triggered once the current 'Lock' password values match the 'Lock' password.

@@ -19,14 +19,16 @@ Keep in mind that you can retexture your Turnables to have custom faces that sho
 Determines along which axis the prop will rotate.
 </div>
 
-This determines along which axis your turnable will turn when moved and in which direction the next value is. You can use the axis example image above to determine which axis will best fit your needs.
+This determines along which axis your `Turnable` will turn when moved and in which direction the next value is. You can use the axis example image below to determine which axis will best fit your needs.
 
-:::tip
-You can also use the rule of the __left thumb__ to easily determine the axis needed and the direction. Check it out at the bottom of this page!
+![Turnable axis](./img/turnable/turnable_axis.png)
+
+:::note
+Don't forget to set the axis view to 'local' so you are viewing the correct axis angles!
 :::
 
 :::tip
-Since this can be difficult to memorize and prone to make mistakes happen, remember you can use Ctrl + "Enter Play Mode" button to start a test run at the camera location, which makes it easy to test your settings very quickly.
+You can also use the rule of the __left thumb__ to easily determine the axis needed and the direction. Check it out at the bottom of this page!
 :::
 
 ### :small_orange_diamond:Screen Axis
@@ -89,3 +91,7 @@ The 'Red Turnable Numbers' prop can be set up by setting the `World Axis` to `Le
 The 'Valve' prop can be set up by setting the `World Axis` to `Back`, and the `Screen Axis` to `Right` (it's a bit hard to see here but the blue arrow is pointing away from the screen).
 
 ![Lock Number turnable](./img/turnable/turnable_valve.gif)
+
+:::tip
+Since this can be difficult to memorize and prone to make mistakes happen, remember you can use Ctrl + "Enter Play Mode" button to start a test run at the camera location, which makes it easy to test your settings very quickly.
+:::
