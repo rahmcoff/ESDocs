@@ -42,6 +42,17 @@ Now you can restart the game and load the room in the Room Editor. If the room d
 
 </details>
 
+<details><summary><h4>I made changes to my room that I'm not happy with - how do I revert to the published version?</h4></summary> 
+
+Thanks Robin for these tips:
+
+1. Subscribe to the previous version of your room on Steam
+2. Make a copy for yourself from the ES menu (Workshop - Community Rooms - Copy)
+3. Work with that copy in ES editor
+4. When you want to update on Steam, make sure that you update the ID in the upload window to match the Steam ID (in the URL) so it overwrites that room and doesn't create a new workshop entry.
+
+</details>
+
 <details><summary><h4>I renamed a file or a folder and the room won't load</h4></summary> 
 
 All folders in the **base UGC** folder need to be named 'Room_*number*'. If you renamed the room folder just rename it back to that format, e.g. 'Room_1' or 'Room_22'.
