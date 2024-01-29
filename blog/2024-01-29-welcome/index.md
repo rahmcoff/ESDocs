@@ -1,6 +1,6 @@
 ---
 title: Welcome
-image: ./logo.png
+image: ./header.jpg
 authors: [pine]
 tags: [pine]
 ---
