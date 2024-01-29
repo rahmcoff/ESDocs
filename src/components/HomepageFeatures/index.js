@@ -78,9 +78,9 @@ export function HomepageHeros() {
         </section>
         <section className={styles.features}>
           <div className="landingHeroCenter">
-            <HeroSmall image={'./img/discord.png'} title={"Discord"} url={"https://discord.gg/pinestudio"} />
-            <HeroSmall image={'./img/press.png'} title={"Press Kit"} url={"https://drive.google.com/drive/folders/167fHIItcneG9BWT_i_Z0R4-HrDct0iHq?usp=sharing"} />
-            <HeroSmall image={'./img/magicDLC.jpg'} title={"Latest DLC (Magic)"} url={"https://store.steampowered.com/app/2419810/Escape_Simulator_Magic_DLC&utm_campaign=ESDocs"} />
+            <Hero image={'./img/discord.png'} title={"Discord"} url={"https://discord.gg/pinestudio"} />
+            <Hero image={'./img/press.png'} title={"Press Kit"} url={"https://drive.google.com/drive/folders/167fHIItcneG9BWT_i_Z0R4-HrDct0iHq?usp=sharing"} />
+            <Hero image={'./img/magicDLC.jpg'} title={"Latest DLC (Magic)"} url={"https://store.steampowered.com/app/2419810/Escape_Simulator_Magic_DLC&utm_campaign=ESDocs"} />
 
           </div>
         </section>
