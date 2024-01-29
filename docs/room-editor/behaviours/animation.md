@@ -14,6 +14,10 @@ Or if you want to plaster a pickable item to a pickable, or to the wall, or to a
 If an animated pickable is triggered while in inventory, nothing happens. If you put it back on the floor, it will be able to run its animation, if activated.
 :::
 
+:::note
+Targeting the `Animation` on one Prop multiple times before it has completed can cancel the `Animation` and can cause room bugs that are hard to diagnose, and this can be more evident on slower PCs.
+:::
+
 ## Properties
 
 ### :small_orange_diamond:Edit Waypoint
