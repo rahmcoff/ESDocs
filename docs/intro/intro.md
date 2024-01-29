@@ -23,19 +23,19 @@ From Space to Victorian era, you will find your cup of tea.
 Explore additional 12 rooms set on a steampunk airship the wild wild west and in magical world.
 <div className="article-card article-card-big" style={{float:'left'}}>
     <a href="https://store.steampowered.com/app/1942100/Escape_Simulator_Steampunk_DLC&utm_campaign=ESDocs">
-        <img src={require('./img/bannerDlc1.png').default}/>
+        <img src={require('./img/SteampunkDLC.jpg').default}/>
     </a>
 </div>
 
 <div className="article-card article-card-big" style={{float:'left'}}>
     <a href="https://store.steampowered.com/app/2175260/Escape_Simulator_Wild_West_DLC&utm_campaign=ESDocs">
-        <img src={require('./img/bannerDlc2.png').default}/>
+        <img src={require('./img/WildWestDLC.jpg').default}/>
     </a>
 </div>
 
 <div className="article-card article-card-big" style={{float:'left'}}>
     <a href="https://store.steampowered.com/app/2419810/Escape_Simulator_Magic_DLC/&utm_campaign=ESDocs">
-        <img src={require('./img/bannerDlc2.png').default}/>
+        <img src={require('./img/magicDLC.jpg').default}/>
     </a>
 </div>
 <div style={{clear:'left'}}/>
@@ -44,12 +44,12 @@ Explore additional 12 rooms set on a steampunk airship the wild wild west and in
 Explore the detailed environment of the mysterious subdivision of Aperture Science Laboratories and the secrets of Mini Skeld!
 <div className="article-card article-card-big" style={{float:'left'}}>
     <a href="https://store.steampowered.com/app/2000170/Escape_Simulator_Portal_Escape_Chamber&utm_campaign=ESDocs">
-        <img src={require('./img/bannerPortal.png').default}/>
+        <img src={require('./img/PortalDLC.jpg').default}/>
     </a>
 </div>
 <div className="article-card article-card-big" style={{float:'left'}}>
     <a href="https://store.steampowered.com/app/2644870/Escape_Simulator_Among_Us_DLC/&utm_campaign=ESDocs">
-        <img src={require('./img/bannerPortal.png').default}/>
+        <img src={require('./img/AmongUsDLC.jpg').default}/>
     </a>
 </div>
 <div style={{clear:'left'}}/>
