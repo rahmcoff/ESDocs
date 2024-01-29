@@ -6,8 +6,6 @@ Let's discover **Escape Simulator**.
 
 This site is for update news, documentation, how-to and FAQ for [Escape Simulator](https://store.steampowered.com/app/1435790/Escape_Simulator/)
 
-
-
 ## About the game
 
 ### 28 Fine Crafted Pine rooms
@@ -20,9 +18,9 @@ From Space to Victorian era, you will find your cup of tea.
     </a>
 </div>
 
-### 2 Full Fledged DLCs
+### 3 Full Fledged DLCs
 
-Explore additional 8 rooms set on a steampunk airship and in the wild wild west.
+Explore additional 12 rooms set on a steampunk airship the wild wild west and in magical world.
 <div className="article-card article-card-big" style={{float:'left'}}>
     <a href="https://store.steampowered.com/app/1942100/Escape_Simulator_Steampunk_DLC&utm_campaign=ESDocs">
         <img src={require('./img/bannerDlc1.png').default}/>
@@ -42,8 +40,8 @@ Explore additional 8 rooms set on a steampunk airship and in the wild wild west.
 </div>
 <div style={{clear:'left'}}/>
 
-### Portal DLC
-Explore the detailed environment of the mysterious subdivision of Aperture Science Laboratories!
+### Collaboration DLCs
+Explore the detailed environment of the mysterious subdivision of Aperture Science Laboratories and the secrets of Mini Skeld!
 <div className="article-card article-card-big" style={{float:'left'}}>
     <a href="https://store.steampowered.com/app/2000170/Escape_Simulator_Portal_Escape_Chamber&utm_campaign=ESDocs">
         <img src={require('./img/bannerPortal.png').default}/>
