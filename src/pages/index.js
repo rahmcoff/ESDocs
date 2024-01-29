@@ -8,7 +8,7 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero banner', styles.heroBanner)}>
       <div className="container">
         <img src='./img/logo.png' height={200} />
       </div>

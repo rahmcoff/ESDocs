@@ -17,7 +17,19 @@ const HeroList = [
 ]
 function Hero({ image, title, url }) {
   return (
-    <div class="article-card article-card-hover">
+    <div class="article-card article-card-big article-card-hover">
+      <a href={url}>
+        <div class="content">
+          <p class="title">{title}</p>
+        </div>
+        <img src={image} />
+      </a>
+    </div>
+  );
+}
+function HeroSmall({ image, title, url }) {
+  return (
+    <div class="article-card article-card-small article-card-hover">
       <a href={url}>
         <div class="content">
           <p class="title">{title}</p>
@@ -55,14 +67,24 @@ export function HomepageHeros() {
   } else {
     const lastBlogPost = recentPosts.items[0]; // Define lastBlogPost here as well
     return (
-      <section className={styles.features}>
-        <div className="landingHeroCenter">
-          {HeroList.map((props, idx) => (
-            <Hero key={idx} {...props} />
-          ))}
-          <Hero image={imageUrl} title={"Blog: " + lastBlogPost.title} url={lastBlogPost.permalink} />
-        </div>
-      </section>
+      <>
+        <section className={styles.features}>
+          <div className="landingHeroCenter">
+            {HeroList.map((props, idx) => (
+              <Hero key={idx} {...props} />
+            ))}
+            <Hero image={imageUrl} title={"Blog: " + lastBlogPost.title} url={lastBlogPost.permalink} />
+          </div>
+        </section>
+        <section className={styles.features}>
+          <div className="landingHeroCenter">
+            <HeroSmall image={'./img/discord-logo-blue.png'} title={"Discord"} url={"https://discord.gg/pinestudio"} />
+            <HeroSmall image={'./img/discord-logo-blue.png'} title={"Press Kit"} url={"https://drive.google.com/drive/folders/167fHIItcneG9BWT_i_Z0R4-HrDct0iHq?usp=sharing"} />
+            <HeroSmall image={'./img/discord-logo-blue.png'} title={"Latest DLC (Magic)"} url={"https://store.steampowered.com/app/2419810/Escape_Simulator_Magic_DLC&utm_campaign=ESDocs"} />
+
+          </div>
+        </section>
+      </>
     );
   }
 }

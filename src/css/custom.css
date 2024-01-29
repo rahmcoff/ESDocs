@@ -19,6 +19,7 @@
   --ifm-color-primary-lighter: #5a91ea;
   /*rgb(102, 212, 189);*/
   --ifm-color-primary-lightest: #80aaef;
+  --ifm-color-primary-banner: #962625;
   /*rgb(146, 224, 208);*/
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
@@ -35,6 +36,8 @@
   --ifm-color-primary-darker: #512B81;
   /*rgb(31, 165, 136);*/
   --ifm-color-primary-darkest: #35155D;
+
+  --ifm-color-primary-banner: #962625;
   /*rgb(26, 136, 112);*/
 
 
@@ -43,6 +46,10 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --highlight-box-color: rgba(255, 255, 255, 0.05);
   --highlight-box-border-color: rgba(255, 255, 255, 0.07);
+}
+
+.banner{
+  background-color: #962625;
 }
 
 .dateLabel {
@@ -65,9 +72,17 @@
   margin: auto;
 }
 
-.article-card {
-  width: 350px;
+.article-card-big{
   height: 220px;
+  width: 350px;
+}
+
+.article-card-small{
+  height: 170px;
+  width: 300px;
+}
+
+.article-card {
   border-radius: 12px;
   margin: 20px;
   overflow: hidden;
