@@ -4,10 +4,19 @@
         <title>Escape Simulator Blog</title>
         <link>https://docs.escapesimulator.com/blog</link>
         <description>Escape Simulator Blog</description>
-        <lastBuildDate>Fri, 15 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jan 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://docs.escapesimulator.com/blog/2024/01/29/welcome</link>
+            <guid>https://docs.escapesimulator.com/blog/2024/01/29/welcome</guid>
+            <pubDate>Mon, 29 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Logo]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" alt="Logo" src="/assets/images/logo-a787db46d61bc18cfaebe975a2b77ee0.png" width="768" height="294" class="img_ev3q"></p><h1>Welcome to the Escape Simulator Game site!</h1><p>In this site, we aim to provide you with the latest updates, news, and features about Escape Simulator, Pine's escape room game. We'll keep you informed about new game updates, additional rooms, and other exciting developments in the game.</p><h1>Site structure</h1><p>Welcome to our <a href="/">landing page</a>, where you will discover essential links that navigate you through our platform. Stay informed with our regularly updated blog link, ensuring you never miss a new post.</p><p>Explore the <a href="/docs/intro">About the Game</a> section to access statistics, information on downloadable content (DLCs), and updates related to the game. Additionally, this section serves as a comprehensive resource for frequently asked questions about the base game.</p><p>Read the section about the <a href="/docs/room-editor">Room Editor</a>, specifically designed for room builders. Here, you can access the latest community-made assets, instructional videos on utilizing specific objects within the editor and more.</p><p>Stay informed with our <a href="/blog">Blog</a>, where we share the most recent significant updates for the game, along with occasional custom blog posts for this site.</p><h1>Contributing</h1><p>If you're interested in contributing to our platform, please visit our <a href="/docs/contributing">dedicated page here</a>. Your contributions are highly valued.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="pine-studio">Pine studio<a href="#pine-studio" class="hash-link" aria-label="Direct link to Pine studio" title="Direct link to Pine studio">​</a></h3>]]></content:encoded>
+            <category>pine</category>
+        </item>
         <item>
             <title><![CDATA[Free Among Us DLC is out now!! 🚨]]></title>
             <link>https://docs.escapesimulator.com/blog/2023/12/15/among-us</link>
@@ -188,16 +197,6 @@ We have something special for you today. Omega Update is now LIVE! This is our b
 <a href="https://store.steampowered.com/app/1435790/Escape_Simulator/" target="_blank" rel="noopener noreferrer">https://store.steampowered.com/app/1435790/Escape_Simulator/</a>
 Thanks to all our <strong>beta testers</strong> and guys from our <a href="https://discord.gg/pinestudio" target="_blank" rel="noopener noreferrer">Discord</a> channel for the support! ♥</p><p>Enjoy the update!</p><details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary><h4>Game</h4></summary><div><div class="collapsibleContent_i85q"><ul><li><strong>3 new rooms</strong> that complete Omega Corp. theme</li><li><strong>French</strong> language</li><li><strong>German</strong> language </li><li>Full <strong>gamepad</strong> support</li><li>You can now add <strong>custom sounds</strong> to your workshop rooms </li><li>New co-op hosting mode that should <strong>fix the connection problem</strong> that some of you have </li><li>A lot of minor bug fixes</li></ul></div></div></details>]]></content:encoded>
             <category>update</category>
-        </item>
-        <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://docs.escapesimulator.com/blog/2021/07/31/welcome</link>
-            <guid>https://docs.escapesimulator.com/blog/2021/07/31/welcome</guid>
-            <pubDate>Sat, 31 Jul 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Logo]]></description>
-            <content:encoded><![CDATA[<p><img loading="lazy" alt="Logo" src="/assets/images/logo-a787db46d61bc18cfaebe975a2b77ee0.png" width="768" height="294" class="img_ev3q"></p><h1>Welcome to the Escape Simulator Game Blog!</h1><p>In this blog, we aim to provide you with the latest updates, news, and features about Escape Simulator, the ultimate escape room experience. We'll keep you informed about new game updates, captivating rooms, and other exciting developments in the game. Whether you're a seasoned escape artist or a newcomer looking for a brain-teasing challenge, our blog will guide you through the world of Escape Simulator. Join us on this adventure filled with mind-bending puzzles and the thrill of being an escape master. Let's embark on this journey together!</p>]]></content:encoded>
-            <category>pine</category>
-            <category>dev-update</category>
         </item>
     </channel>
 </rss>

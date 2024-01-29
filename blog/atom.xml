@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.escapesimulator.com/blog</id>
     <title>Escape Simulator Blog</title>
-    <updated>2023-12-15T00:00:00.000Z</updated>
+    <updated>2024-01-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.escapesimulator.com/blog"/>
     <subtitle>Escape Simulator Blog</subtitle>
     <icon>https://docs.escapesimulator.com/img/ESIcon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://docs.escapesimulator.com/blog/2024/01/29/welcome</id>
+        <link href="https://docs.escapesimulator.com/blog/2024/01/29/welcome"/>
+        <updated>2024-01-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Logo]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="Logo" src="/assets/images/logo-a787db46d61bc18cfaebe975a2b77ee0.png" width="768" height="294" class="img_ev3q"></p><h1>Welcome to the Escape Simulator Game site!</h1><p>In this site, we aim to provide you with the latest updates, news, and features about Escape Simulator, Pine's escape room game. We'll keep you informed about new game updates, additional rooms, and other exciting developments in the game.</p><h1>Site structure</h1><p>Welcome to our <a href="/">landing page</a>, where you will discover essential links that navigate you through our platform. Stay informed with our regularly updated blog link, ensuring you never miss a new post.</p><p>Explore the <a href="/docs/intro">About the Game</a> section to access statistics, information on downloadable content (DLCs), and updates related to the game. Additionally, this section serves as a comprehensive resource for frequently asked questions about the base game.</p><p>Read the section about the <a href="/docs/room-editor">Room Editor</a>, specifically designed for room builders. Here, you can access the latest community-made assets, instructional videos on utilizing specific objects within the editor and more.</p><p>Stay informed with our <a href="/blog">Blog</a>, where we share the most recent significant updates for the game, along with occasional custom blog posts for this site.</p><h1>Contributing</h1><p>If you're interested in contributing to our platform, please visit our <a href="/docs/contributing">dedicated page here</a>. Your contributions are highly valued.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="pine-studio">Pine studio<a href="#pine-studio" class="hash-link" aria-label="Direct link to Pine studio" title="Direct link to Pine studio">​</a></h3>]]></content>
+        <author>
+            <name>Pine</name>
+            <uri>https://pinestudio.com</uri>
+        </author>
+        <category label="pine" term="pine"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Free Among Us DLC is out now!! 🚨]]></title>
         <id>https://docs.escapesimulator.com/blog/2023/12/15/among-us</id>
@@ -259,19 +272,5 @@ Thanks to all our <strong>beta testers</strong> and guys from our <a href="https
             <uri>https://pinestudio.com</uri>
         </author>
         <category label="update" term="update"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://docs.escapesimulator.com/blog/2021/07/31/welcome</id>
-        <link href="https://docs.escapesimulator.com/blog/2021/07/31/welcome"/>
-        <updated>2021-07-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Logo]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" alt="Logo" src="/assets/images/logo-a787db46d61bc18cfaebe975a2b77ee0.png" width="768" height="294" class="img_ev3q"></p><h1>Welcome to the Escape Simulator Game Blog!</h1><p>In this blog, we aim to provide you with the latest updates, news, and features about Escape Simulator, the ultimate escape room experience. We'll keep you informed about new game updates, captivating rooms, and other exciting developments in the game. Whether you're a seasoned escape artist or a newcomer looking for a brain-teasing challenge, our blog will guide you through the world of Escape Simulator. Join us on this adventure filled with mind-bending puzzles and the thrill of being an escape master. Let's embark on this journey together!</p>]]></content>
-        <author>
-            <name>Pine</name>
-            <uri>https://pinestudio.com</uri>
-        </author>
-        <category label="pine" term="pine"/>
-        <category label="dev-update" term="dev-update"/>
     </entry>
 </feed>
