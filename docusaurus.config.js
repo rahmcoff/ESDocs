@@ -70,7 +70,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Escape Simulator',
+        title: 'Escape Simulator (Beta)',
         logo: {
           alt: 'Escape Simulator Logo',
           src: 'img/ESIcon.png',
@@ -80,7 +80,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'gameSidebar',
             position: 'left',
-            label: 'Game',
+            label: 'About the game',
           },
           {
             type: 'docSidebar',

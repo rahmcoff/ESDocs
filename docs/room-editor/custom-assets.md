@@ -117,6 +117,36 @@ More help getting started with lua.
 
 A lantern that follows you via the magic of lua. Works in coop too.
 
-[Find the lantern here](https://steamcommunity.com/sharedfiles/filedetails/?id=3044396073&searchtext=lantern)
+[Find the lantern here](https://steamcommunity.com/sharedfiles/filedetails/?id=3044396073)
+
+</div>
+
+<div className="highlight-div">
+
+## LUA Magic Mirror ~ GG3L
+
+It's a script used to achieve a "magic mirror" effect.
+
+[Find the mirror here](https://steamcommunity.com/sharedfiles/filedetails/?id=3128579007)
+
+</div>
+
+<div className="highlight-div">
+
+## LUA Rotate ~ GG3L
+
+This is a script that adds the ability to rotate any object on one or more axis, with the posibility to control the duration and speed.
+
+[Find the script here](https://steamcommunity.com/sharedfiles/filedetails/?id=3090423373)
+
+</div>
+
+<div className="highlight-div">
+
+## LUA Slow Interact ~ GG3L
+
+This is a script that adds a new type of interaction animation. For example, it can be used as a visual representation of an animation’s duration.
+
+[Find the script here](https://steamcommunity.com/sharedfiles/filedetails/?id=3086652363)
 
 </div>
