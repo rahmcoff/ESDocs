@@ -40,7 +40,7 @@ Explore additional 12 rooms set on a steampunk airship the wild wild west and in
 </div>
 <div style={{clear:'left'}}/>
 
-### Collaboration DLCs
+### Free Collab DLCs
 Explore the detailed environment of the mysterious subdivision of Aperture Science Laboratories and the secrets of Mini Skeld!
 <div className="article-card article-card-big" style={{float:'left'}}>
     <a href="https://store.steampowered.com/app/2000170/Escape_Simulator_Portal_Escape_Chamber&utm_campaign=ESDocs">
