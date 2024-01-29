@@ -1,5 +1,9 @@
-# Dial (WIP)
-A `Dial` is a behaviour that can be placed on a prop that is meant to be used for interactions with props where you want the player to rotate the mouse across the screen. For instance, if you have a 'Valve' prop and it is pointing at the screen, you will most likely want to use a `Dial` behaviour and not the `Turnable` because turnables only rotate by moving the mouse in two direction (e.g. right - left). This is most useful when you can limit the player's viewing angle, e.g. by using it in a `Zoomable` where the player can not change the view. If used from strange views it can appear buggy, so test your room to determine if you need a `Dial` or a `Turnable`.
+# Dial
+A `Dial` is a behaviour that can be placed on a prop that is meant to be used for interactions with props where you want the player to rotate the mouse across the screen. For instance, if you have a 'Valve' prop and it is pointing at the screen, you will most likely want to use a `Dial` behaviour and not the `Turnable` because turnables only rotate by moving the mouse in two direction (e.g. right - left). This is most useful when you can limit the player's viewing angle, e.g. by using it in a `Zoomable` where the player can not change the angle of viewing. If used from strange angles it can appear buggy, so test your room to determine if you need a `Dial` or a `Turnable`.
+
+:::tip
+Dials will only output when they are stopped and let go off.
+:::
 
 ## Properties
 
@@ -28,46 +32,49 @@ Determines the amount of dial steps. Shouldn't be larger than Value Output Range
 Usually you need to set it to the same number as the Output Value Range. Make it double the Output Value Range to only get even numbers.
 </div>
 
-The number of section the dial is split into. 
+The number of sections the dial is split into, e.g. setting 4 here will create a dial with 4 sections with a 90 degree angle. Each of these sections will send out a different value based on the `Value Output Range`.
+
+![image](./img/dial/value_count.png)
 
 :::note
 Do not enter a 0 here, else the game will try to divide by 0, which leads to errors that will clutter your playerlog.
 :::
 
+:::tip
+If you are having issues with the dial make sure the `Value Count` number is set to a number equal (or larger) than the `Value Output Range`.
+:::
+
 ### :small_orange_diamond:Value Output Range
 <div className="highlight-div">
+Maximal value the dial can output at the final rotation. Ranges from 0 to the Output Value Range reduced by one.
 </div>
-- Specifies which range of numbers are assigned to each section. It's almost always best to keep these the same (i.e. both would be 12 for a clock face)
-- If you have a dial with the VALUE COUNT 4, it has 4 sections to which you can turn your wheels. The OUTPUT those sections give depends on the **Value Output Range**. This is going to be a bit weird, so do not be alarmed if you feel confused at first. Let's take our 4-section turn-able wheel. The top section output (with me applying a forward spin axis) is 0. The following section outputs will be determined by what you enter as "Range". If you have 4 sections from your VALUE COUNT of 4 and then enter 8 as the OUTPUT RANGE, the output of the sectors will look like this:
 
-![image](https://user-images.githubusercontent.com/2043673/194778150-4a5b6870-48e3-4283-b26a-42b4b1252d79.png)
+This setting is used to change the values the `Dial` outputs to locks. Each section of the `Dial` created by the `Value Count` has a different output value. If the `Value Output Range` matches the `Value Count` each section gets a number from 0 to the `Value Output Range`. Otherwise it will try to squeeze in a couple of numbers into the section. To do that it uses division, divide the `Value Output Range` by the `Value Count` and take the floor of that number, e.g. 9/4 = 2.25, but that floored is 2. The first section will have 0 and 1 squeezed into this section, but only the 0 will be sent to the `Lock`.
+
+![image](./img/dial/value_count.png)
+
+In the image above, the `Value Count` is 4 and the `Value Output Range` is 8. This means the wheel is cut into 4 slices and each slice output value is incremented by 2, because 8/4 = 2. The values increase in a counter-clockwise direction because the `World Axis` is set to point in the opposite direction of the screen.
 
 Having a Value Output Range of 12 will give outputs 0, 3, 6, 9.
-If you choose numbers that are not equally divertible between the sectors, they will be ignored and the next lower number assumed that works. So e.g. having a Value Output Range of 13 for our 4-sector Dial will still result in the same output as the Value Output Range 12 one. Only Value Output Range 16 will start changing the output values again.
-This is really weird stuff, so if you want to use dials, just enter the same numbers for both Value Count and Value Output Range. This should work for nearly all things you plan to do with dials.
+If you choose numbers that are not equally divisible between the sectors, they will be ignored and the next lower number assumed that works. So e.g. having a Value Output Range of 13 for our 4-sector Dial will still result in the same output as the Value Output Range 12 one. Only Value Output Range 16 will start changing the output values again.
 
-### :small_orange_diamond:SNAP TO POSITION
+:::tip
+If you are new to `Dials` just set this value to be the same as the `Value Count` and the `Dial` will output numbers from 0 to the `Value Count` to the designated `Lock`.
+:::
+
+### :small_orange_diamond:Snap To Position
 <div className="highlight-div">
-</div>
-Seems to be bugged at the moment, but is supposed to work similar as with the turnables.
-
-### :small_orange_diamond:LOCKS
-<div className="highlight-div">
-</div>
-The lock(s) this dial connects to.
-
-Dials will only output when they are stopped and let go off.
-
-Whenever you can avoid dials, use Turnables instead.
-
-## Helpful Tips
-<div className="highlight-div">
-    Dials will only output when they are stopped and let go off.
+When checked, the dial will snap to the closest rotation when released.
 </div>
 
+Works similarly to the `Turnable` `Snap To Position`, but there is a bug when the `Value Output Range` doesn't match the `Value Count`.
+
+### :small_orange_diamond:Locks
 <div className="highlight-div">
-    Whenever you can avoid dials, use Turnables instead.
+Target the 'Lock' password position. When the 'Dial' is rotated to a position the set password position will be set to the current 'Dial' value.
 </div>
+
+The lock(s) this dial connects to and send the outputs to. Dials will only output when they are stopped and let go off.
 
 
 ## Left Thumb Rule
