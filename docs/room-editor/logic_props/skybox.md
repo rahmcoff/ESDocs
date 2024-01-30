@@ -56,7 +56,7 @@ When not checked, the sun will not be shown.
 The density of the atmosphere. An atmosphere of higher density absorbs more light.
 </div>
 
-Setting a higher number will make the atmosphere hazier and redder.
+Setting a higher number will make the atmosphere hazier and more opaque.
 
 ### :small_orange_diamond:Sky Tint
 
